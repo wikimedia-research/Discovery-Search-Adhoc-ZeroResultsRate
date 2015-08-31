@@ -8,3 +8,17 @@ read_datasets <- function(filename){
   close(con)
   return(as.data.table(data))
 }
+
+# Identify whether a series of URLs represent search requests
+is_search <- function(urls){
+  
+  # First, direct searches
+  is_direct_search <- grepl(x = urls, pattern = ":Search", fixed = TRUE)
+  
+  # Then API searches
+  is_api_search <- grepl(x = urls, pattern = "(action=(opensearch|languagesearch)|list=(prefixsearch|search|geosearch))",
+                         perl = TRUE, useBytes = TRUE)
+  
+  # If it's one or the other (or both!) TRUE, else FALSE.
+  return(is_direct_search | is_api_search)
+}
