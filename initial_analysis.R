@@ -28,16 +28,21 @@ main <- function(){
   # Big rise on 2015-06-16. Will dig into the request logs and try to identify a source.
   # Rise mostly seems to be for full-text search.
   files <- wmf::get_logfile(earliest = "2015-06-15", latest = "2015-06-17")
-  data <- do.call("rbind", lapply(files, wmf::read_sampled_log))
-  
-  # Identify dates and limit on that
-  data$timestamp <- as.Date(wmf::from_log(data$timestamp))
-  data <- data[data$timestamp %in% as.Date(c("2015-06-15", "2015-06-16")),]
-  
-  # Filter down to successful requests and search requests, in that order, then
-  # turn it into a data.table
-  data <- data[grepl(x = data$status_code, pattern = "(200|304)"),]
-  data <- as.data.table(data[is_search(data$url),])
+  data <- do.call("rbind", lapply(files, function(filename){
+    data <- wmf::read_sampled_log(filename)
+    
+    # Identify dates and limit on that
+    data$timestamp <- as.Date(wmf::from_log(data$timestamp))
+    data <- data[data$timestamp %in% as.Date(c("2015-06-15", "2015-06-16")),]
+    
+    # Filter down to successful requests and search requests, in that order, then
+    # turn it into a data.table
+    data <- data[grepl(x = data$status_code, pattern = "(200|304)"),]
+    data <- as.data.table(data[is_search(data$url),])
+    
+    # Done
+    return(data)
+  }))
   
   # 7% increase in the FT ZRR. And the increase in searches, full stop, is...
   searches_by_day <- as.data.frame(table(data$timestamp))
