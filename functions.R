@@ -9,7 +9,8 @@ read_datasets <- function(filename){
   return(as.data.table(data))
 }
 
-# Identify whether a series of URLs represent search requests
+# Identify whether a series of URLs represent search requests.
+# This should probably make it into the 'wmf' package.
 is_search <- function(urls){
   
   # First, direct searches
