@@ -46,7 +46,7 @@ main <- function(){
   
   # 7% increase in the FT ZRR. And the increase in searches, full stop, is...
   searches_by_day <- as.data.frame(table(data$timestamp))
-  delta <- searches_by_day$Freq[2]/searches_by_day$Freq[1]
+  str(searches_by_day)
   # 9%!
   
   # Identify user agents
@@ -57,8 +57,8 @@ main <- function(){
     if(.N == 1){
       NULL
     } else {
-      prop_delta <- .SD$N[.SD$timestamp == as.Date("2015-08-16")]/.SD$N[.SD$timestamp == as.Date("2015-08-15")]
-      raw_delta <- .SD$N[.SD$timestamp == as.Date("2015-08-16")] - .SD$N[.SD$timestamp == as.Date("2015-08-15")]
+      prop_delta <- .SD$N[.SD$timestamp == as.Date("2015-06-16")]/.SD$N[.SD$timestamp == as.Date("2015-06-15")]
+      raw_delta <- .SD$N[.SD$timestamp == as.Date("2015-06-16")] - .SD$N[.SD$timestamp == as.Date("2015-06-15")]
       list(proportion_change = prop_delta,
            numeric_change = raw_delta)
     }
@@ -66,11 +66,13 @@ main <- function(){
   agent_increase <- agent_increase[order(agent_increase$numeric_change, agent_increase$proportion_change,
                                          decreasing = TRUE),]
   
+  # Big change appears to be Lagotto products.
   # Map density of change
   ggsave(file = "user_agent_change_density.png",
     plot = ggplot(agent_increase, aes(proportion_change)) + 
     geom_density(fill = "#F8766D") + theme_fivethirtyeight() +
-    labs(title = "Proportionate increase in searches by user agent, 2015-08-15 - 2015-08-16"))
+    labs(title = "Proportionate increase in searches by user agent, 2015-08-15 - 2015-08-16") +
+      scale_x_log10())
   
   # Map IP change
   data$ip_address <- iptools::xff_extract(data$ip_address, data$x_forwarded)
@@ -79,8 +81,8 @@ main <- function(){
     if(.N == 1){
       NULL
     } else {
-      prop_delta <- .SD$N[.SD$timestamp == as.Date("2015-08-16")]/.SD$N[.SD$timestamp == as.Date("2015-08-15")]
-      raw_delta <- .SD$N[.SD$timestamp == as.Date("2015-08-16")] - .SD$N[.SD$timestamp == as.Date("2015-08-15")]
+      prop_delta <- .SD$N[.SD$timestamp == as.Date("2015-06-16")]/.SD$N[.SD$timestamp == as.Date("2015-06-15")]
+      raw_delta <- .SD$N[.SD$timestamp == as.Date("2015-06-16")] - .SD$N[.SD$timestamp == as.Date("2015-06-15")]
       list(proportion_change = prop_delta,
            numeric_change = raw_delta)
     }
@@ -88,6 +90,7 @@ main <- function(){
   ggsave(file = "ip_address_change_density.png",
          plot = ggplot(ip_increase, aes(proportion_change)) + 
            geom_density(fill = "#F8766D") + theme_fivethirtyeight() +
-           labs(title = "Proportionate increase in searches by IP address, 2015-08-15 - 2015-08-16"))
+           labs(title = "Proportionate increase in searches by IP address, 2015-08-15 - 2015-08-16") + 
+           scale_x_log10())
   
 }
