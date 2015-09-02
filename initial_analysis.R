@@ -9,8 +9,8 @@ main <- function(){
     proportion = value[variable == "Zero Result Queries"]/value[variable == "Search Queries"]
   ), by = "date"]
   ggsave(file = "overall_zrr.png",
-         plot = ggplot(proportions, aes(date, proportion, colour = "#F8766D")) + 
-           geom_line(size = 1.6) + theme_fivethirtyeight() + stat_smooth() +
+         plot = ggplot(proportions, aes(date, proportion)) + 
+           geom_line(size = 1.6,  colour = "#F8766D") + theme_fivethirtyeight() + stat_smooth() +
            scale_x_date(breaks = "2 weeks") + scale_y_continuous(labels = percent) +
            labs(x = "Date", y = "Zero Results Rate (%)",
                 title = "Zero Results Rate over time"))
@@ -63,16 +63,19 @@ main <- function(){
            numeric_change = raw_delta)
     }
   }, by = "user_agent"]
-  agent_increase <- agent_increase[order(agent_increase$numeric_change, agent_increase$proportion_change,
-                                         decreasing = TRUE),]
   
   # Big change appears to be Lagotto products.
   # Map density of change
   ggsave(file = "user_agent_change_density.png",
     plot = ggplot(agent_increase, aes(proportion_change)) + 
     geom_density(fill = "#F8766D") + theme_fivethirtyeight() +
-    labs(title = "Proportionate increase in searches by user agent, 2015-08-15 - 2015-08-16") +
+    labs(title = "Proportionate increase in searches by user agent, 2015-08-15 - 2015-08-16 (log-scaled)") +
       scale_x_log10())
+  ggsave(file = "user_agent_numeric_change_density.png",
+         plot = ggplot(agent_increase, aes(numeric_change*1000)) + 
+           geom_density(fill = "#F8766D") + theme_fivethirtyeight() +
+           labs(title = "Numeric increase in searches by user agent, 2015-08-15 - 2015-08-16 (log-scaled)") +
+           scale_x_log10())
   
   # Map IP change
   data$ip_address <- iptools::xff_extract(data$ip_address, data$x_forwarded)
@@ -90,7 +93,11 @@ main <- function(){
   ggsave(file = "ip_address_change_density.png",
          plot = ggplot(ip_increase, aes(proportion_change)) + 
            geom_density(fill = "#F8766D") + theme_fivethirtyeight() +
-           labs(title = "Proportionate increase in searches by IP address, 2015-08-15 - 2015-08-16") + 
+           labs(title = "Proportionate increase in searches by IP address, 2015-08-15 - 2015-08-16 (log-scaled)") + 
            scale_x_log10())
-  
+  ggsave(file = "ip_address_numeric_change_density.png",
+         plot = ggplot(ip_increase, aes(numeric_change*1000)) + 
+           geom_density(fill = "#F8766D") + theme_fivethirtyeight() +
+           labs(title = "Numeric increase in searches by IP address, 2015-08-15 - 2015-08-16 (log-scaled)") + 
+           scale_x_log10())
 }

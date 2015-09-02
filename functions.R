@@ -23,3 +23,12 @@ is_search <- function(urls){
   # If it's one or the other (or both!) TRUE, else FALSE.
   return(is_direct_search | is_api_search)
 }
+
+# Detect whether something looks like automata
+is_automata <- function(user_agents){
+  user_agents <- urltools::url_decode(user_agents)
+  null_agent <- (user_agents == "-")
+  known_automata <- grepl(x = user_agents, perl = TRUE, useBytes = TRUE,
+                          pattern = "(goldsmith/Wikipedia|wikipedia\\.de|Lagotto|Faraday|Zend|RBot|find-link|Apache|ColdFusion)")
+  return(null_agent | known_automata)
+}
