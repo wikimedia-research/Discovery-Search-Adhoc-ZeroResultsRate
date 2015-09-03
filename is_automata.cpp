@@ -1,7 +1,6 @@
 #include <Rcpp.h>
 #include <regex>
 using namespace Rcpp;
-//[[Rcpp::depends(BH)]]
 
 class automata {
   
