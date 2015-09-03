@@ -101,3 +101,6 @@ main <- function(){
            labs(title = "Numeric increase in searches by IP address, 2015-08-15 - 2015-08-16 (log-scaled)") + 
            scale_x_log10())
 }
+
+main()
+q(save = "no")
