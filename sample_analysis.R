@@ -28,6 +28,8 @@ main <- function(){
            expand_limits(y = 0) +
            labs(x = "Date", y = "Zero Results Rate (%)",
                 title = "Zero Results Rate over time, by search type and log type"))
+  
+  
 }
 
 main()
