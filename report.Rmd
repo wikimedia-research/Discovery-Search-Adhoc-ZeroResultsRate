@@ -5,6 +5,8 @@ date: "September 1, 2015"
 output: pdf_document
 ---
 
+*Summary: While we were unable to identify the source of the increase in the Zero Results Rate we have been able to (temporarily) split out automata, identifying it as the primary source of substantive fluctuatons in our data. Work needs to be done to improve our logging and our understanding of automata users.*
+
 ## Background
 
 One of the core Key Performance Indicators (KPIs) for the Discovery team this quarter is the Zero Results Rate; the rate
@@ -35,8 +37,9 @@ Again, we see an increase (Fig. 2) but that increase isn't even. In particular w
 We can construct a number of hypotheses (some explorable, some not) as to why the rate is increasing, namely:
 
 * Some form of automata was triggered on 16 June, and is misbehaving (and continuing), causing the underlying boost in full-text failures;
-* Multiple forms of automata have been triggered, and are misbehaving and causing the underlying boost;
-* This is simply a seasonal pattern we have not seen before because we haven't been looking at search before.
+* Multiple forms of automata have been triggered, and are misbehaving and causing the underlying boost.
+
+Alternately this could simply be a seasonal pattern we have not seen before due to the lack of any historical interest in search from the Foundation - that, we unfortunately can't measure.
 
 ## Automata on 16 June
 
@@ -71,3 +74,36 @@ One thing that we have very deliberately not done as a team is excluded automata
 Using the logs from our A/B tests we can get a sample of traffic with both the zero results rate *and* the user agent and IP address,
 and examine it for probable automata, letting us see whether the secondary rise (in August 2015) is down to a rise in automata behaviour,
 and what the traffic would look like without automata.
+
+![initial_look](ab_dashboard_comparison.png)
+
+What we see on an initial look (Fig. 6) is that for full-text searches, traffic looks vastly different - a full 30% variation between the A/B-log sourced data and the dashboard data. Our best hypothesis for this is that there is a problem with one of the datasets, or with the parsing of that dataset, although why that would occur so uniformly is not known. We desperately need to switch our log storage system over to streaming them into HDFS so that they can actually be held in a uniform (and escaped) fashion.
+
+Still, with the exception of one dramatic spike in the A/B logs, the actual *pattern* holds up well, which means that the automata measurements can still be of value. To measure automata we hand-coded the most prominent user agents looking for common patterns that indicated automated systems, such as language- or platform-specific generic HTTP or web-scraping libraries, or prominent, Wikimedia-specific user agents, and combined that with commonly-used general heuristics. The result was a test that considers a user agent indicative of automata if:
+
+1. It represents a language- or platform-specific HTTP or web scraping library;
+2. It represents a common form of Wikimedia bot (say, Pywikipediabot) or a specific tool commonly deployed on Wikipedia (say, Lagotto);
+3. The user agent is blank;
+4. The user agent contains a URL or a fragment of a URL;
+5. The user agent contains an email address.
+
+In addition, any IP address producing more than 100,000 events within the sample window was considered automata.
+
+Initial hand-coding of the output of this set of heuristics was positive, and if we apply them to the dataset as a whole we see that 28% of traffic was from obviously automated sources. If we break that traffic out:
+
+![bot_breakdown](zrr_bot_breakdown.png)
+
+It becomes clear that *actual* searches from humans are following a clear, weekly seasonal pattern without substantial changes in the zero results rate - the spikes and dips are largely the fault of automated software using our API.
+
+With that software removed the change in the Zero Results Rate looks somewhat different - but the rate is still increasing (slightly) over time:
+
+![without_bots](without_bot_by_type.png)
+
+## Conclusion
+
+We cannot, with the data available to us, get a deep understanding of why the rate has been increasing. It may be due to automata clever enough that we can't detect it, or may simply be a seasonal pattern we don't have the historical data to understand. We do know that seasonal patterns exist for reader activity overall, and so it existing for searches (which require readers) would not be shocking.
+
+A lot of useful things have come out of this though, including but not limited to:
+
+1. We desperately need some form of rate-limiting for API requests. We have users making millions of daily requests to our APIs - not one, but hundreds - and while we want to be an open house, we *don't* want to be an open house without at least a guest book. User agent filtering is not, in the long term, sustainable.
+2. Cirrus search logs, formatted for analytics purposes, need to make their way into HDFS sooner rather than later. This work is already underway and currently restricted by a security review; once the data is in there it will be a lot easier to grab long-term, unsampled data of what we're interested in studying without running into data loss or formatting issues. It will also provide a single, canonical source of information we can use for both ad-hoc analysis and dashboarding, avoiding inaccuracies between platforms.

@@ -7,7 +7,6 @@ class automata {
 private:
   
   std::string url_fragment = "://";
-  
   std::regex bots;
   std::regex generic_automata;
   std::regex specific_automata;
@@ -22,6 +21,14 @@ private:
     // If there's a URL, it's automata
     if(user_agent.find(url_fragment) != std::string::npos){
       return true;
+    }
+    
+    // If there's an email address, it's automata
+    size_t email = user_agent.find("@");
+    if(email != std::string::npos){
+      if(user_agent.find(".", email) != std::string::npos){
+        return true;
+      }
     }
     
     // Various flavours of automata, true
@@ -48,8 +55,8 @@ public:
   
   automata(){
     bots = std::regex("Pywikibot");
-    generic_automata = std::regex("^(Faraday|HTTPC|Ruby|Java|\\.NET|PHP|Python|Apache|Scrapy|PycURL|libwww|Zend)", std::regex::icase);
-    specific_automata = std::regex("^(Lagotto|Peggo|Recuweb|Magnus|MLD|find-link)");
+    generic_automata = std::regex("^(Faraday|HTTPC|Ruby|Java|\\.NET|PHP|Python|Apache|Scrapy|curl|PycURL|libwww|Zend|wget|nodemw|WinHttpRaw|Twisted|com\\.eusoft)", std::regex::icase);
+    specific_automata = std::regex("^(Lagotto|Peggo|Recuweb|check_http|Magnus|MLD|Jakarta|find-link|J\\. River|projectplan9|ADmantX|httpunit|LWP|iNaturalist|WikiDemo|FSResearchIt|livedoor|Microsoft Monitoring|MediaWiki)");
   }
 };
 

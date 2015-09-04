@@ -37,19 +37,19 @@ read_cirrus <- function(filepath){
   } else {
     data <- data[data$V2 == "suggest-confidence-b", c("V4", "V8", "V7","V3")]
   }
-  setnames(data, 1:ncol(data), c("results", "user_agent", "ip_address", "type"))
+  setnames(data, 1:ncol(data), c("has_results", "user_agent", "ip_address", "type"))
   
   # Easily distinguish prefix/full-text search and no results/some results.
   data$type[!grepl(x = data$type, pattern = "full_text")] <- "Prefix"
   data$type[data$type != "Prefix"] <- "Full"
-  data$results <- (as.character(data$results) != "0")
+  data$has_results <- (as.character(data$has_results) != "0")
   
   # Add the timestamp, reformat it, and aggregate it for memory savings.
   # Then return.
   filepath <- gsub(x = filepath, pattern = "[^0-9]", replacement = "")
   data$timestamp <- as.Date(strptime(filepath, "%Y%m%d", tz = "UTC"))
   data <- as.data.table(data)
-  data <- data[,j=list(searches = .N*100), by = c("timestamp","user_agent","ip_address","type", "results")]
+  data <- data[,j=list(searches = .N*100), by = c("timestamp","user_agent","ip_address","type", "has_results")]
   return(data)
 }
 
