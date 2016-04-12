@@ -1,0 +1,1090 @@
+date	source	query_type	is_automata	total_requests	zero_results_requests	dashboard_type	dashboard_type_new
+2016-03-13	api	comp_suggest	FALSE	7813910	2125465	Prefix Search	Prefix Search
+2016-03-13	api	comp_suggest	TRUE	595768	306739	Prefix Search	Prefix Search
+2016-03-13	api	degraded_full_text	FALSE	1	1	Full-Text Search	Other
+2016-03-13	api	degraded_full_text	TRUE	21	21	Full-Text Search	Other
+2016-03-13	api	full_text	FALSE	25707077	4265374	Full-Text Search	Full-Text Search
+2016-03-13	api	full_text	TRUE	2646865	986650	Full-Text Search	Full-Text Search
+2016-03-13	api	GeoData_spatial_search	FALSE	627385	204677	Prefix Search	Other
+2016-03-13	api	GeoData_spatial_search	TRUE	583001	338626	Prefix Search	Other
+2016-03-13	api	more_like	FALSE	9766349	7229061	Full-Text Search	Full-Text Search
+2016-03-13	api	more_like	TRUE	1718	293	Full-Text Search	Full-Text Search
+2016-03-13	api	namespace	FALSE	5196	4836	Prefix Search	Other
+2016-03-13	api	namespace	TRUE	6333	6331	Prefix Search	Other
+2016-03-13	api	near_match	FALSE	469063	467794	Prefix Search	Prefix Search
+2016-03-13	api	near_match	TRUE	371	345	Prefix Search	Prefix Search
+2016-03-13	api	prefix	FALSE	61461439	21384325	Prefix Search	Prefix Search
+2016-03-13	api	prefix	TRUE	2830448	1387155	Prefix Search	Prefix Search
+2016-03-13	api	regex	FALSE	138	74	Full-Text Search	Full-Text Search
+2016-03-13	api	regex	TRUE	171	69	Full-Text Search	Full-Text Search
+2016-03-13	cli	send_data_write	TRUE	292	292	Prefix Search	Other
+2016-03-13	web	degraded_full_text	FALSE	132	132	Full-Text Search	Other
+2016-03-13	web	full_text	FALSE	6282575	1367758	Full-Text Search	Full-Text Search
+2016-03-13	web	full_text	TRUE	493535	340662	Full-Text Search	Full-Text Search
+2016-03-13	web	get	TRUE	4	0	Prefix Search	Other
+2016-03-13	web	namespace	FALSE	1152	1137	Prefix Search	Other
+2016-03-13	web	namespace	TRUE	22	22	Prefix Search	Other
+2016-03-13	web	near_match	FALSE	146589	14286	Prefix Search	Prefix Search
+2016-03-13	web	near_match	TRUE	20424	18288	Prefix Search	Prefix Search
+2016-03-13	web	other_idx_lookup	TRUE	43941	43941	Prefix Search	Other
+2016-03-13	web	regex	FALSE	519	69	Full-Text Search	Full-Text Search
+2016-03-13	web	regex	TRUE	51	0	Full-Text Search	Full-Text Search
+2016-03-13	web	send_data_other_idx_write	TRUE	2570	2570	Prefix Search	Other
+2016-03-13	web	send_data_write	TRUE	5220517	5220517	Prefix Search	Other
+2016-03-13	web	send_deletes	TRUE	26123	26123	Prefix Search	Other
+2016-03-13	web	version	FALSE	80	80	Prefix Search	Other
+2016-03-13	web	version	TRUE	293	293	Prefix Search	Other
+2016-03-14	api	comp_suggest	FALSE	8452272	2427337	Prefix Search	Prefix Search
+2016-03-14	api	comp_suggest	TRUE	716323	371974	Prefix Search	Prefix Search
+2016-03-14	api	degraded_full_text	FALSE	6	6	Full-Text Search	Other
+2016-03-14	api	degraded_full_text	TRUE	15	15	Full-Text Search	Other
+2016-03-14	api	full_text	FALSE	22472731	4185161	Full-Text Search	Full-Text Search
+2016-03-14	api	full_text	TRUE	2764994	980501	Full-Text Search	Full-Text Search
+2016-03-14	api	GeoData_spatial_search	FALSE	392530	127054	Prefix Search	Other
+2016-03-14	api	GeoData_spatial_search	TRUE	485525	232932	Prefix Search	Other
+2016-03-14	api	more_like	FALSE	7556111	5408897	Full-Text Search	Full-Text Search
+2016-03-14	api	more_like	TRUE	6536	1316	Full-Text Search	Full-Text Search
+2016-03-14	api	namespace	FALSE	5724	5701	Prefix Search	Other
+2016-03-14	api	namespace	TRUE	8199	8194	Prefix Search	Other
+2016-03-14	api	near_match	FALSE	486460	484973	Prefix Search	Prefix Search
+2016-03-14	api	near_match	TRUE	439	430	Prefix Search	Prefix Search
+2016-03-14	api	prefix	FALSE	64637395	24137282	Prefix Search	Prefix Search
+2016-03-14	api	prefix	TRUE	3245625	1623155	Prefix Search	Prefix Search
+2016-03-14	api	regex	FALSE	93	62	Full-Text Search	Full-Text Search
+2016-03-14	api	regex	TRUE	13	2	Full-Text Search	Full-Text Search
+2016-03-14	cli	send_data_write	TRUE	562	562	Prefix Search	Other
+2016-03-14	cli	send_deletes	TRUE	4	4	Prefix Search	Other
+2016-03-14	web	degraded_full_text	FALSE	169	169	Full-Text Search	Other
+2016-03-14	web	degraded_full_text	TRUE	1	1	Full-Text Search	Other
+2016-03-14	web	full_text	FALSE	7017972	1371089	Full-Text Search	Full-Text Search
+2016-03-14	web	full_text	TRUE	321574	196416	Full-Text Search	Full-Text Search
+2016-03-14	web	get	FALSE	3	0	Prefix Search	Other
+2016-03-14	web	get	TRUE	5	0	Prefix Search	Other
+2016-03-14	web	more_like	FALSE	1	0	Full-Text Search	Full-Text Search
+2016-03-14	web	namespace	FALSE	936	923	Prefix Search	Other
+2016-03-14	web	namespace	TRUE	4	4	Prefix Search	Other
+2016-03-14	web	near_match	FALSE	167761	15164	Prefix Search	Prefix Search
+2016-03-14	web	near_match	TRUE	22212	20113	Prefix Search	Prefix Search
+2016-03-14	web	other_idx_lookup	TRUE	48262	48262	Prefix Search	Other
+2016-03-14	web	regex	FALSE	449	59	Full-Text Search	Full-Text Search
+2016-03-14	web	regex	TRUE	39	1	Full-Text Search	Full-Text Search
+2016-03-14	web	send_data_other_idx_write	TRUE	2776	2776	Prefix Search	Other
+2016-03-14	web	send_data_write	TRUE	5240143	5240143	Prefix Search	Other
+2016-03-14	web	send_deletes	TRUE	22166	22166	Prefix Search	Other
+2016-03-14	web	version	FALSE	91	91	Prefix Search	Other
+2016-03-14	web	version	TRUE	223	223	Prefix Search	Other
+2016-03-15	api	comp_suggest	FALSE	8582748	2480502	Prefix Search	Prefix Search
+2016-03-15	api	comp_suggest	TRUE	704285	364304	Prefix Search	Prefix Search
+2016-03-15	api	degraded_full_text	FALSE	3	3	Full-Text Search	Other
+2016-03-15	api	degraded_full_text	TRUE	26	26	Full-Text Search	Other
+2016-03-15	api	full_text	FALSE	21884078	4115051	Full-Text Search	Full-Text Search
+2016-03-15	api	full_text	TRUE	3227329	1194964	Full-Text Search	Full-Text Search
+2016-03-15	api	GeoData_spatial_search	FALSE	382554	125605	Prefix Search	Other
+2016-03-15	api	GeoData_spatial_search	TRUE	664244	417414	Prefix Search	Other
+2016-03-15	api	more_like	FALSE	7134540	5014578	Full-Text Search	Full-Text Search
+2016-03-15	api	more_like	TRUE	2337	228	Full-Text Search	Full-Text Search
+2016-03-15	api	namespace	FALSE	6792	6737	Prefix Search	Other
+2016-03-15	api	namespace	TRUE	8302	8296	Prefix Search	Other
+2016-03-15	api	near_match	FALSE	506515	505018	Prefix Search	Prefix Search
+2016-03-15	api	near_match	TRUE	479	457	Prefix Search	Prefix Search
+2016-03-15	api	prefix	FALSE	63329232	23907971	Prefix Search	Prefix Search
+2016-03-15	api	prefix	TRUE	3222213	1587973	Prefix Search	Prefix Search
+2016-03-15	api	regex	FALSE	73	52	Full-Text Search	Full-Text Search
+2016-03-15	api	regex	TRUE	24	10	Full-Text Search	Full-Text Search
+2016-03-15	cli	send_data_write	TRUE	625	625	Prefix Search	Other
+2016-03-15	cli	send_deletes	TRUE	6	6	Prefix Search	Other
+2016-03-15	web	degraded_full_text	FALSE	134	134	Full-Text Search	Other
+2016-03-15	web	full_text	FALSE	7135169	1449284	Full-Text Search	Full-Text Search
+2016-03-15	web	full_text	TRUE	328091	175956	Full-Text Search	Full-Text Search
+2016-03-15	web	get	FALSE	2	0	Prefix Search	Other
+2016-03-15	web	get	TRUE	5	0	Prefix Search	Other
+2016-03-15	web	more_like	FALSE	25	13	Full-Text Search	Full-Text Search
+2016-03-15	web	namespace	FALSE	1038	1029	Prefix Search	Other
+2016-03-15	web	namespace	TRUE	9	9	Prefix Search	Other
+2016-03-15	web	near_match	FALSE	163342	14560	Prefix Search	Prefix Search
+2016-03-15	web	near_match	TRUE	16493	14055	Prefix Search	Prefix Search
+2016-03-15	web	other_idx_lookup	TRUE	47585	47585	Prefix Search	Other
+2016-03-15	web	regex	FALSE	459	77	Full-Text Search	Full-Text Search
+2016-03-15	web	regex	TRUE	152	0	Full-Text Search	Full-Text Search
+2016-03-15	web	send_data_other_idx_write	TRUE	2490	2490	Prefix Search	Other
+2016-03-15	web	send_data_write	TRUE	5383004	5383004	Prefix Search	Other
+2016-03-15	web	send_deletes	TRUE	25533	25533	Prefix Search	Other
+2016-03-15	web	version	FALSE	61	61	Prefix Search	Other
+2016-03-15	web	version	TRUE	246	246	Prefix Search	Other
+2016-03-16	api	comp_suggest	FALSE	29393901	7234449	Prefix Search	Prefix Search
+2016-03-16	api	comp_suggest	TRUE	1470793	588600	Prefix Search	Prefix Search
+2016-03-16	api	degraded_full_text	FALSE	1	1	Full-Text Search	Other
+2016-03-16	api	degraded_full_text	TRUE	9	9	Full-Text Search	Other
+2016-03-16	api	full_text	FALSE	19929555	3599768	Full-Text Search	Full-Text Search
+2016-03-16	api	full_text	TRUE	2649366	986136	Full-Text Search	Full-Text Search
+2016-03-16	api	GeoData_spatial_search	FALSE	349155	106899	Prefix Search	Other
+2016-03-16	api	GeoData_spatial_search	TRUE	515903	295585	Prefix Search	Other
+2016-03-16	api	more_like	FALSE	6776274	4774280	Full-Text Search	Full-Text Search
+2016-03-16	api	more_like	TRUE	355	123	Full-Text Search	Full-Text Search
+2016-03-16	api	namespace	FALSE	5128	5058	Prefix Search	Other
+2016-03-16	api	namespace	TRUE	5625	5620	Prefix Search	Other
+2016-03-16	api	near_match	FALSE	501695	500213	Prefix Search	Prefix Search
+2016-03-16	api	near_match	TRUE	369	355	Prefix Search	Prefix Search
+2016-03-16	api	prefix	FALSE	38759648	14909026	Prefix Search	Prefix Search
+2016-03-16	api	prefix	TRUE	2070490	1050621	Prefix Search	Prefix Search
+2016-03-16	api	regex	FALSE	129	79	Full-Text Search	Full-Text Search
+2016-03-16	api	regex	TRUE	11	3	Full-Text Search	Full-Text Search
+2016-03-16	cli	send_data_write	TRUE	582	582	Prefix Search	Other
+2016-03-16	cli	send_deletes	TRUE	3	3	Prefix Search	Other
+2016-03-16	web	degraded_full_text	FALSE	143	143	Full-Text Search	Other
+2016-03-16	web	degraded_full_text	TRUE	2	2	Full-Text Search	Other
+2016-03-16	web	full_text	FALSE	6456962	1317727	Full-Text Search	Full-Text Search
+2016-03-16	web	full_text	TRUE	300638	159558	Full-Text Search	Full-Text Search
+2016-03-16	web	get	FALSE	12	4	Prefix Search	Other
+2016-03-16	web	get	TRUE	3	0	Prefix Search	Other
+2016-03-16	web	more_like	FALSE	1	1	Full-Text Search	Full-Text Search
+2016-03-16	web	more_like	TRUE	2	1	Full-Text Search	Full-Text Search
+2016-03-16	web	namespace	FALSE	998	995	Prefix Search	Other
+2016-03-16	web	namespace	TRUE	1	1	Prefix Search	Other
+2016-03-16	web	near_match	FALSE	150889	13423	Prefix Search	Prefix Search
+2016-03-16	web	near_match	TRUE	14425	12218	Prefix Search	Prefix Search
+2016-03-16	web	other_idx_lookup	TRUE	42244	42244	Prefix Search	Other
+2016-03-16	web	regex	FALSE	428	52	Full-Text Search	Full-Text Search
+2016-03-16	web	regex	TRUE	60	3	Full-Text Search	Full-Text Search
+2016-03-16	web	send_data_other_idx_write	TRUE	2522	2522	Prefix Search	Other
+2016-03-16	web	send_data_write	TRUE	5336758	5336758	Prefix Search	Other
+2016-03-16	web	send_deletes	TRUE	24889	24889	Prefix Search	Other
+2016-03-16	web	version	FALSE	292	292	Prefix Search	Other
+2016-03-16	web	version	TRUE	187	187	Prefix Search	Other
+2016-03-17	api	comp_suggest	FALSE	67598104	16613752	Prefix Search	Prefix Search
+2016-03-17	api	comp_suggest	TRUE	3355356	1239136	Prefix Search	Prefix Search
+2016-03-17	api	degraded_full_text	FALSE	1	0	Full-Text Search	Other
+2016-03-17	api	full_text	FALSE	18923083	3246671	Full-Text Search	Full-Text Search
+2016-03-17	api	full_text	TRUE	2702706	982925	Full-Text Search	Full-Text Search
+2016-03-17	api	GeoData_spatial_search	FALSE	506990	131300	Prefix Search	Other
+2016-03-17	api	GeoData_spatial_search	TRUE	371625	155372	Prefix Search	Other
+2016-03-17	api	more_like	FALSE	6913001	4855958	Full-Text Search	Full-Text Search
+2016-03-17	api	more_like	TRUE	571	157	Full-Text Search	Full-Text Search
+2016-03-17	api	namespace	FALSE	4384	4309	Prefix Search	Other
+2016-03-17	api	namespace	TRUE	1415	1413	Prefix Search	Other
+2016-03-17	api	near_match	FALSE	573508	571889	Prefix Search	Prefix Search
+2016-03-17	api	near_match	TRUE	199	192	Prefix Search	Prefix Search
+2016-03-17	api	prefix	FALSE	408868	82203	Prefix Search	Prefix Search
+2016-03-17	api	prefix	TRUE	962	539	Prefix Search	Prefix Search
+2016-03-17	api	regex	FALSE	488	381	Full-Text Search	Full-Text Search
+2016-03-17	api	regex	TRUE	21	1	Full-Text Search	Full-Text Search
+2016-03-17	cli	send_data_write	TRUE	583	583	Prefix Search	Other
+2016-03-17	cli	send_deletes	TRUE	2	2	Prefix Search	Other
+2016-03-17	web	degraded_full_text	FALSE	146	146	Full-Text Search	Other
+2016-03-17	web	full_text	FALSE	6537436	1384715	Full-Text Search	Full-Text Search
+2016-03-17	web	full_text	TRUE	337374	178003	Full-Text Search	Full-Text Search
+2016-03-17	web	get	FALSE	3	0	Prefix Search	Other
+2016-03-17	web	get	TRUE	3	0	Prefix Search	Other
+2016-03-17	web	more_like	FALSE	1	0	Full-Text Search	Full-Text Search
+2016-03-17	web	namespace	FALSE	938	920	Prefix Search	Other
+2016-03-17	web	namespace	TRUE	2	2	Prefix Search	Other
+2016-03-17	web	near_match	FALSE	147654	13807	Prefix Search	Prefix Search
+2016-03-17	web	near_match	TRUE	15989	13563	Prefix Search	Prefix Search
+2016-03-17	web	other_idx_lookup	TRUE	47006	47006	Prefix Search	Other
+2016-03-17	web	regex	FALSE	1189	126	Full-Text Search	Full-Text Search
+2016-03-17	web	regex	TRUE	43	0	Full-Text Search	Full-Text Search
+2016-03-17	web	send_data_other_idx_write	TRUE	4883	4883	Prefix Search	Other
+2016-03-17	web	send_data_write	TRUE	5218486	5218486	Prefix Search	Other
+2016-03-17	web	send_deletes	TRUE	27023	27023	Prefix Search	Other
+2016-03-17	web	version	FALSE	67	67	Prefix Search	Other
+2016-03-17	web	version	TRUE	256	256	Prefix Search	Other
+2016-03-18	api	comp_suggest	FALSE	62023405	14337422	Prefix Search	Prefix Search
+2016-03-18	api	comp_suggest	TRUE	3014062	1075784	Prefix Search	Prefix Search
+2016-03-18	api	degraded_full_text	FALSE	1	0	Full-Text Search	Other
+2016-03-18	api	degraded_full_text	TRUE	1	1	Full-Text Search	Other
+2016-03-18	api	full_text	FALSE	18747375	3053971	Full-Text Search	Full-Text Search
+2016-03-18	api	full_text	TRUE	3621421	1742930	Full-Text Search	Full-Text Search
+2016-03-18	api	GeoData_spatial_search	FALSE	444504	129527	Prefix Search	Other
+2016-03-18	api	GeoData_spatial_search	TRUE	489553	274421	Prefix Search	Other
+2016-03-18	api	more_like	FALSE	7022739	4959142	Full-Text Search	Full-Text Search
+2016-03-18	api	more_like	TRUE	6175	533	Full-Text Search	Full-Text Search
+2016-03-18	api	namespace	FALSE	6344	6225	Prefix Search	Other
+2016-03-18	api	namespace	TRUE	8386	8383	Prefix Search	Other
+2016-03-18	api	near_match	FALSE	463160	461659	Prefix Search	Prefix Search
+2016-03-18	api	near_match	TRUE	345	329	Prefix Search	Prefix Search
+2016-03-18	api	prefix	FALSE	416900	82396	Prefix Search	Prefix Search
+2016-03-18	api	prefix	TRUE	3304	2972	Prefix Search	Prefix Search
+2016-03-18	api	regex	FALSE	290	209	Full-Text Search	Full-Text Search
+2016-03-18	api	regex	TRUE	131	14	Full-Text Search	Full-Text Search
+2016-03-18	cli	send_data_write	TRUE	621	621	Prefix Search	Other
+2016-03-18	cli	send_deletes	TRUE	5	5	Prefix Search	Other
+2016-03-18	web	degraded_full_text	FALSE	126	126	Full-Text Search	Other
+2016-03-18	web	degraded_full_text	TRUE	1	1	Full-Text Search	Other
+2016-03-18	web	full_text	FALSE	5937268	1245001	Full-Text Search	Full-Text Search
+2016-03-18	web	full_text	TRUE	463768	222581	Full-Text Search	Full-Text Search
+2016-03-18	web	get	FALSE	4	0	Prefix Search	Other
+2016-03-18	web	get	TRUE	2	0	Prefix Search	Other
+2016-03-18	web	namespace	FALSE	842	833	Prefix Search	Other
+2016-03-18	web	namespace	TRUE	3	3	Prefix Search	Other
+2016-03-18	web	near_match	FALSE	133413	11683	Prefix Search	Prefix Search
+2016-03-18	web	near_match	TRUE	16690	14138	Prefix Search	Prefix Search
+2016-03-18	web	other_idx_lookup	TRUE	45528	45528	Prefix Search	Other
+2016-03-18	web	regex	FALSE	764	92	Full-Text Search	Full-Text Search
+2016-03-18	web	regex	TRUE	595	0	Full-Text Search	Full-Text Search
+2016-03-18	web	send_data_other_idx_write	TRUE	5637	5637	Prefix Search	Other
+2016-03-18	web	send_data_write	TRUE	5779595	5779595	Prefix Search	Other
+2016-03-18	web	send_deletes	TRUE	21777	21777	Prefix Search	Other
+2016-03-18	web	version	FALSE	53	53	Prefix Search	Other
+2016-03-18	web	version	TRUE	312	312	Prefix Search	Other
+2016-03-19	api	comp_suggest	FALSE	58122167	12310060	Prefix Search	Prefix Search
+2016-03-19	api	comp_suggest	TRUE	2664116	941043	Prefix Search	Prefix Search
+2016-03-19	api	degraded_full_text	FALSE	1	1	Full-Text Search	Other
+2016-03-19	api	degraded_full_text	TRUE	2	2	Full-Text Search	Other
+2016-03-19	api	full_text	FALSE	19881279	2904826	Full-Text Search	Full-Text Search
+2016-03-19	api	full_text	TRUE	3404969	1492858	Full-Text Search	Full-Text Search
+2016-03-19	api	GeoData_spatial_search	FALSE	500469	167429	Prefix Search	Other
+2016-03-19	api	GeoData_spatial_search	TRUE	545658	344755	Prefix Search	Other
+2016-03-19	api	more_like	FALSE	8220544	5915679	Full-Text Search	Full-Text Search
+2016-03-19	api	more_like	TRUE	2914	384	Full-Text Search	Full-Text Search
+2016-03-19	api	namespace	FALSE	5159	5131	Prefix Search	Other
+2016-03-19	api	namespace	TRUE	6713	6711	Prefix Search	Other
+2016-03-19	api	near_match	FALSE	438607	437036	Prefix Search	Prefix Search
+2016-03-19	api	near_match	TRUE	260	251	Prefix Search	Prefix Search
+2016-03-19	api	prefix	FALSE	434783	80796	Prefix Search	Prefix Search
+2016-03-19	api	prefix	TRUE	716	498	Prefix Search	Prefix Search
+2016-03-19	api	regex	FALSE	112	81	Full-Text Search	Full-Text Search
+2016-03-19	api	regex	TRUE	281	4	Full-Text Search	Full-Text Search
+2016-03-19	cli	send_data_write	TRUE	340	340	Prefix Search	Other
+2016-03-19	cli	send_deletes	TRUE	9	9	Prefix Search	Other
+2016-03-19	web	degraded_full_text	FALSE	134	134	Full-Text Search	Other
+2016-03-19	web	degraded_full_text	TRUE	2	2	Full-Text Search	Other
+2016-03-19	web	full_text	FALSE	5225914	1160986	Full-Text Search	Full-Text Search
+2016-03-19	web	full_text	TRUE	447729	165310	Full-Text Search	Full-Text Search
+2016-03-19	web	get	FALSE	2	0	Prefix Search	Other
+2016-03-19	web	get	TRUE	5	0	Prefix Search	Other
+2016-03-19	web	namespace	FALSE	2088	2083	Prefix Search	Other
+2016-03-19	web	namespace	TRUE	5	5	Prefix Search	Other
+2016-03-19	web	near_match	FALSE	115321	11585	Prefix Search	Prefix Search
+2016-03-19	web	near_match	TRUE	13638	11125	Prefix Search	Prefix Search
+2016-03-19	web	other_idx_lookup	TRUE	38692	38692	Prefix Search	Other
+2016-03-19	web	regex	FALSE	502	84	Full-Text Search	Full-Text Search
+2016-03-19	web	regex	TRUE	783	0	Full-Text Search	Full-Text Search
+2016-03-19	web	send_data_other_idx_write	TRUE	6654	6654	Prefix Search	Other
+2016-03-19	web	send_data_write	TRUE	5457172	5457172	Prefix Search	Other
+2016-03-19	web	send_deletes	TRUE	23008	23008	Prefix Search	Other
+2016-03-19	web	version	FALSE	56	56	Prefix Search	Other
+2016-03-19	web	version	TRUE	323	323	Prefix Search	Other
+2016-03-20	api	comp_suggest	FALSE	64685811	13847428	Prefix Search	Prefix Search
+2016-03-20	api	comp_suggest	TRUE	2912419	1069719	Prefix Search	Prefix Search
+2016-03-20	api	degraded_full_text	FALSE	4	2	Full-Text Search	Other
+2016-03-20	api	degraded_full_text	TRUE	5	5	Full-Text Search	Other
+2016-03-20	api	full_text	FALSE	21390019	3178252	Full-Text Search	Full-Text Search
+2016-03-20	api	full_text	TRUE	2988659	1336802	Full-Text Search	Full-Text Search
+2016-03-20	api	GeoData_spatial_search	FALSE	645699	194652	Prefix Search	Other
+2016-03-20	api	GeoData_spatial_search	TRUE	907144	607175	Prefix Search	Other
+2016-03-20	api	more_like	FALSE	9222656	6763600	Full-Text Search	Full-Text Search
+2016-03-20	api	more_like	TRUE	1992	480	Full-Text Search	Full-Text Search
+2016-03-20	api	namespace	FALSE	4898	4848	Prefix Search	Other
+2016-03-20	api	namespace	TRUE	7546	7545	Prefix Search	Other
+2016-03-20	api	near_match	FALSE	390008	388666	Prefix Search	Prefix Search
+2016-03-20	api	near_match	TRUE	384	370	Prefix Search	Prefix Search
+2016-03-20	api	prefix	FALSE	425721	80971	Prefix Search	Prefix Search
+2016-03-20	api	prefix	TRUE	704	453	Prefix Search	Prefix Search
+2016-03-20	api	regex	FALSE	138	118	Full-Text Search	Full-Text Search
+2016-03-20	api	regex	TRUE	166	1	Full-Text Search	Full-Text Search
+2016-03-20	cli	send_data_write	TRUE	385	385	Prefix Search	Other
+2016-03-20	cli	send_deletes	TRUE	16	16	Prefix Search	Other
+2016-03-20	web	degraded_full_text	FALSE	134	134	Full-Text Search	Other
+2016-03-20	web	degraded_full_text	TRUE	1	1	Full-Text Search	Other
+2016-03-20	web	full_text	FALSE	5651741	1239374	Full-Text Search	Full-Text Search
+2016-03-20	web	full_text	TRUE	435915	155544	Full-Text Search	Full-Text Search
+2016-03-20	web	get	FALSE	12	6	Prefix Search	Other
+2016-03-20	web	get	TRUE	1	0	Prefix Search	Other
+2016-03-20	web	more_like	FALSE	1	0	Full-Text Search	Full-Text Search
+2016-03-20	web	namespace	FALSE	1731	1714	Prefix Search	Other
+2016-03-20	web	namespace	TRUE	9	9	Prefix Search	Other
+2016-03-20	web	near_match	FALSE	132424	13342	Prefix Search	Prefix Search
+2016-03-20	web	near_match	TRUE	18047	6840	Prefix Search	Prefix Search
+2016-03-20	web	other_idx_lookup	TRUE	42914	42914	Prefix Search	Other
+2016-03-20	web	regex	FALSE	806	192	Full-Text Search	Full-Text Search
+2016-03-20	web	regex	TRUE	756	0	Full-Text Search	Full-Text Search
+2016-03-20	web	send_data_other_idx_write	TRUE	6076	6076	Prefix Search	Other
+2016-03-20	web	send_data_write	TRUE	5668989	5668989	Prefix Search	Other
+2016-03-20	web	send_deletes	TRUE	20178	20178	Prefix Search	Other
+2016-03-20	web	version	FALSE	120	120	Prefix Search	Other
+2016-03-20	web	version	TRUE	270	270	Prefix Search	Other
+2016-03-21	api	comp_suggest	FALSE	68077617	15626477	Prefix Search	Prefix Search
+2016-03-21	api	comp_suggest	TRUE	3381741	1256452	Prefix Search	Prefix Search
+2016-03-21	api	degraded_full_text	FALSE	1	1	Full-Text Search	Other
+2016-03-21	api	degraded_full_text	TRUE	2	2	Full-Text Search	Other
+2016-03-21	api	full_text	FALSE	19759171	3452540	Full-Text Search	Full-Text Search
+2016-03-21	api	full_text	TRUE	3025037	1452639	Full-Text Search	Full-Text Search
+2016-03-21	api	GeoData_spatial_search	FALSE	422112	148990	Prefix Search	Other
+2016-03-21	api	GeoData_spatial_search	TRUE	464680	254869	Prefix Search	Other
+2016-03-21	api	more_like	FALSE	7503817	5359027	Full-Text Search	Full-Text Search
+2016-03-21	api	more_like	TRUE	3039	328	Full-Text Search	Full-Text Search
+2016-03-21	api	namespace	FALSE	5528	5417	Prefix Search	Other
+2016-03-21	api	namespace	TRUE	13736	13734	Prefix Search	Other
+2016-03-21	api	near_match	FALSE	469933	468633	Prefix Search	Prefix Search
+2016-03-21	api	near_match	TRUE	450	438	Prefix Search	Prefix Search
+2016-03-21	api	prefix	FALSE	448039	87162	Prefix Search	Prefix Search
+2016-03-21	api	prefix	TRUE	638	368	Prefix Search	Prefix Search
+2016-03-21	api	regex	FALSE	134	118	Full-Text Search	Full-Text Search
+2016-03-21	api	regex	TRUE	645	2	Full-Text Search	Full-Text Search
+2016-03-21	cli	send_data_write	TRUE	361	361	Prefix Search	Other
+2016-03-21	cli	send_deletes	TRUE	2	2	Prefix Search	Other
+2016-03-21	web	degraded_full_text	FALSE	129	129	Full-Text Search	Other
+2016-03-21	web	full_text	FALSE	6315849	1263239	Full-Text Search	Full-Text Search
+2016-03-21	web	full_text	TRUE	520374	276038	Full-Text Search	Full-Text Search
+2016-03-21	web	get	FALSE	3	0	Prefix Search	Other
+2016-03-21	web	get	TRUE	3	0	Prefix Search	Other
+2016-03-21	web	namespace	FALSE	1184	1176	Prefix Search	Other
+2016-03-21	web	namespace	TRUE	17	17	Prefix Search	Other
+2016-03-21	web	near_match	FALSE	154696	13751	Prefix Search	Prefix Search
+2016-03-21	web	near_match	TRUE	16381	4142	Prefix Search	Prefix Search
+2016-03-21	web	other_idx_lookup	TRUE	45156	45156	Prefix Search	Other
+2016-03-21	web	regex	FALSE	663	100	Full-Text Search	Full-Text Search
+2016-03-21	web	regex	TRUE	92	0	Full-Text Search	Full-Text Search
+2016-03-21	web	send_data_other_idx_write	TRUE	4325	4325	Prefix Search	Other
+2016-03-21	web	send_data_write	TRUE	5692784	5692784	Prefix Search	Other
+2016-03-21	web	send_deletes	TRUE	32069	32069	Prefix Search	Other
+2016-03-21	web	version	FALSE	233	233	Prefix Search	Other
+2016-03-21	web	version	TRUE	349	349	Prefix Search	Other
+2016-03-22	api	comp_suggest	FALSE	65931377	15543316	Prefix Search	Prefix Search
+2016-03-22	api	comp_suggest	TRUE	3343832	1232568	Prefix Search	Prefix Search
+2016-03-22	api	degraded_full_text	FALSE	14	12	Full-Text Search	Other
+2016-03-22	api	degraded_full_text	TRUE	1	1	Full-Text Search	Other
+2016-03-22	api	full_text	FALSE	19091464	3380548	Full-Text Search	Full-Text Search
+2016-03-22	api	full_text	TRUE	3180465	1173928	Full-Text Search	Full-Text Search
+2016-03-22	api	GeoData_spatial_search	FALSE	463707	152300	Prefix Search	Other
+2016-03-22	api	GeoData_spatial_search	TRUE	306927	120361	Prefix Search	Other
+2016-03-22	api	more_like	FALSE	7038677	4967433	Full-Text Search	Full-Text Search
+2016-03-22	api	more_like	TRUE	6998	1296	Full-Text Search	Full-Text Search
+2016-03-22	api	namespace	FALSE	4525	4475	Prefix Search	Other
+2016-03-22	api	namespace	TRUE	9565	9562	Prefix Search	Other
+2016-03-22	api	near_match	FALSE	558154	556393	Prefix Search	Prefix Search
+2016-03-22	api	near_match	TRUE	327	317	Prefix Search	Prefix Search
+2016-03-22	api	prefix	FALSE	437761	88652	Prefix Search	Prefix Search
+2016-03-22	api	prefix	TRUE	734	484	Prefix Search	Prefix Search
+2016-03-22	api	regex	FALSE	44	31	Full-Text Search	Full-Text Search
+2016-03-22	api	regex	TRUE	10	3	Full-Text Search	Full-Text Search
+2016-03-22	cli	send_data_write	TRUE	622	622	Prefix Search	Other
+2016-03-22	web	degraded_full_text	FALSE	135	135	Full-Text Search	Other
+2016-03-22	web	full_text	FALSE	6199822	1249258	Full-Text Search	Full-Text Search
+2016-03-22	web	full_text	TRUE	586917	328265	Full-Text Search	Full-Text Search
+2016-03-22	web	get	FALSE	5	0	Prefix Search	Other
+2016-03-22	web	get	TRUE	4	0	Prefix Search	Other
+2016-03-22	web	more_like	FALSE	5	3	Full-Text Search	Full-Text Search
+2016-03-22	web	namespace	FALSE	988	970	Prefix Search	Other
+2016-03-22	web	namespace	TRUE	56	56	Prefix Search	Other
+2016-03-22	web	near_match	FALSE	150184	12995	Prefix Search	Prefix Search
+2016-03-22	web	near_match	TRUE	17073	11797	Prefix Search	Prefix Search
+2016-03-22	web	other_idx_lookup	TRUE	51772	51772	Prefix Search	Other
+2016-03-22	web	regex	FALSE	365	70	Full-Text Search	Full-Text Search
+2016-03-22	web	regex	TRUE	52	0	Full-Text Search	Full-Text Search
+2016-03-22	web	send_data_other_idx_write	TRUE	5089	5089	Prefix Search	Other
+2016-03-22	web	send_data_write	TRUE	5526792	5526792	Prefix Search	Other
+2016-03-22	web	send_deletes	TRUE	18769	18769	Prefix Search	Other
+2016-03-22	web	version	FALSE	28	28	Prefix Search	Other
+2016-03-22	web	version	TRUE	384	384	Prefix Search	Other
+2016-03-23	api	comp_suggest	FALSE	67429250	15530863	Prefix Search	Prefix Search
+2016-03-23	api	comp_suggest	TRUE	3486693	1308326	Prefix Search	Prefix Search
+2016-03-23	api	degraded_full_text	FALSE	4	2	Full-Text Search	Other
+2016-03-23	api	degraded_full_text	TRUE	3	3	Full-Text Search	Other
+2016-03-23	api	full_text	FALSE	21056201	4460828	Full-Text Search	Full-Text Search
+2016-03-23	api	full_text	TRUE	3022464	971948	Full-Text Search	Full-Text Search
+2016-03-23	api	GeoData_spatial_search	FALSE	464110	134410	Prefix Search	Other
+2016-03-23	api	GeoData_spatial_search	TRUE	314208	124571	Prefix Search	Other
+2016-03-23	api	more_like	FALSE	7413952	5212688	Full-Text Search	Full-Text Search
+2016-03-23	api	more_like	TRUE	2278	165	Full-Text Search	Full-Text Search
+2016-03-23	api	namespace	FALSE	6084	6005	Prefix Search	Other
+2016-03-23	api	namespace	TRUE	9787	9786	Prefix Search	Other
+2016-03-23	api	near_match	FALSE	513387	511769	Prefix Search	Prefix Search
+2016-03-23	api	near_match	TRUE	330	315	Prefix Search	Prefix Search
+2016-03-23	api	prefix	FALSE	447570	87364	Prefix Search	Prefix Search
+2016-03-23	api	prefix	TRUE	2311	1728	Prefix Search	Prefix Search
+2016-03-23	api	regex	FALSE	102	47	Full-Text Search	Full-Text Search
+2016-03-23	api	regex	TRUE	111	3	Full-Text Search	Full-Text Search
+2016-03-23	cli	send_data_write	TRUE	649	649	Prefix Search	Other
+2016-03-23	cli	send_deletes	TRUE	4	4	Prefix Search	Other
+2016-03-23	web	degraded_full_text	FALSE	125	125	Full-Text Search	Other
+2016-03-23	web	full_text	FALSE	6363428	1325104	Full-Text Search	Full-Text Search
+2016-03-23	web	full_text	TRUE	472517	198098	Full-Text Search	Full-Text Search
+2016-03-23	web	get	FALSE	7	0	Prefix Search	Other
+2016-03-23	web	get	TRUE	3	0	Prefix Search	Other
+2016-03-23	web	namespace	FALSE	895	871	Prefix Search	Other
+2016-03-23	web	namespace	TRUE	4	4	Prefix Search	Other
+2016-03-23	web	near_match	FALSE	151964	12945	Prefix Search	Prefix Search
+2016-03-23	web	near_match	TRUE	16898	14303	Prefix Search	Prefix Search
+2016-03-23	web	other_idx_lookup	TRUE	44821	44821	Prefix Search	Other
+2016-03-23	web	regex	FALSE	403	57	Full-Text Search	Full-Text Search
+2016-03-23	web	regex	TRUE	90	0	Full-Text Search	Full-Text Search
+2016-03-23	web	send_data_other_idx_write	TRUE	6516	6516	Prefix Search	Other
+2016-03-23	web	send_data_write	TRUE	5959388	5959388	Prefix Search	Other
+2016-03-23	web	send_deletes	TRUE	21156	21156	Prefix Search	Other
+2016-03-23	web	version	FALSE	54	54	Prefix Search	Other
+2016-03-23	web	version	TRUE	688	688	Prefix Search	Other
+2016-03-24	api	comp_suggest	FALSE	67537989	14723071	Prefix Search	Prefix Search
+2016-03-24	api	comp_suggest	TRUE	3440371	1271690	Prefix Search	Prefix Search
+2016-03-24	api	degraded_full_text	FALSE	2	1	Full-Text Search	Other
+2016-03-24	api	degraded_full_text	TRUE	4	4	Full-Text Search	Other
+2016-03-24	api	full_text	FALSE	20609814	3603902	Full-Text Search	Full-Text Search
+2016-03-24	api	full_text	TRUE	3106831	1028079	Full-Text Search	Full-Text Search
+2016-03-24	api	GeoData_spatial_search	FALSE	681356	150153	Prefix Search	Other
+2016-03-24	api	GeoData_spatial_search	TRUE	343970	140856	Prefix Search	Other
+2016-03-24	api	more_like	FALSE	8015980	5692658	Full-Text Search	Full-Text Search
+2016-03-24	api	more_like	TRUE	1482	119	Full-Text Search	Full-Text Search
+2016-03-24	api	namespace	FALSE	5349	5030	Prefix Search	Other
+2016-03-24	api	namespace	TRUE	8838	8836	Prefix Search	Other
+2016-03-24	api	near_match	FALSE	546183	544628	Prefix Search	Prefix Search
+2016-03-24	api	near_match	TRUE	402	395	Prefix Search	Prefix Search
+2016-03-24	api	prefix	FALSE	544765	113844	Prefix Search	Prefix Search
+2016-03-24	api	prefix	TRUE	618	417	Prefix Search	Prefix Search
+2016-03-24	api	regex	FALSE	101	66	Full-Text Search	Full-Text Search
+2016-03-24	api	regex	TRUE	356	4	Full-Text Search	Full-Text Search
+2016-03-24	cli	send_data_write	TRUE	779	779	Prefix Search	Other
+2016-03-24	cli	send_deletes	TRUE	1	1	Prefix Search	Other
+2016-03-24	web	degraded_full_text	FALSE	145	145	Full-Text Search	Other
+2016-03-24	web	full_text	FALSE	6329449	1348204	Full-Text Search	Full-Text Search
+2016-03-24	web	full_text	TRUE	431711	172571	Full-Text Search	Full-Text Search
+2016-03-24	web	get	FALSE	6	0	Prefix Search	Other
+2016-03-24	web	get	TRUE	6	0	Prefix Search	Other
+2016-03-24	web	namespace	FALSE	904	886	Prefix Search	Other
+2016-03-24	web	namespace	TRUE	4	4	Prefix Search	Other
+2016-03-24	web	near_match	FALSE	148294	13770	Prefix Search	Prefix Search
+2016-03-24	web	near_match	TRUE	11541	8842	Prefix Search	Prefix Search
+2016-03-24	web	other_idx_lookup	TRUE	42526	42526	Prefix Search	Other
+2016-03-24	web	regex	FALSE	687	126	Full-Text Search	Full-Text Search
+2016-03-24	web	regex	TRUE	47	0	Full-Text Search	Full-Text Search
+2016-03-24	web	send_data_other_idx_write	TRUE	5430	5430	Prefix Search	Other
+2016-03-24	web	send_data_write	TRUE	5989899	5989899	Prefix Search	Other
+2016-03-24	web	send_deletes	TRUE	21296	21296	Prefix Search	Other
+2016-03-24	web	version	FALSE	108	108	Prefix Search	Other
+2016-03-24	web	version	TRUE	380	380	Prefix Search	Other
+2016-03-25	api	comp_suggest	FALSE	61072630	12861800	Prefix Search	Prefix Search
+2016-03-25	api	comp_suggest	TRUE	2767305	990222	Prefix Search	Prefix Search
+2016-03-25	api	degraded_full_text	FALSE	6	3	Full-Text Search	Other
+2016-03-25	api	degraded_full_text	TRUE	2	2	Full-Text Search	Other
+2016-03-25	api	full_text	FALSE	20279133	3074486	Full-Text Search	Full-Text Search
+2016-03-25	api	full_text	TRUE	2635714	879977	Full-Text Search	Full-Text Search
+2016-03-25	api	GeoData_spatial_search	FALSE	732982	189459	Prefix Search	Other
+2016-03-25	api	GeoData_spatial_search	TRUE	303963	113554	Prefix Search	Other
+2016-03-25	api	more_like	FALSE	8629372	6340315	Full-Text Search	Full-Text Search
+2016-03-25	api	more_like	TRUE	3037	204	Full-Text Search	Full-Text Search
+2016-03-25	api	namespace	FALSE	6441	6400	Prefix Search	Other
+2016-03-25	api	namespace	TRUE	6929	6926	Prefix Search	Other
+2016-03-25	api	near_match	FALSE	446508	445341	Prefix Search	Prefix Search
+2016-03-25	api	near_match	TRUE	321	314	Prefix Search	Prefix Search
+2016-03-25	api	prefix	FALSE	746416	183906	Prefix Search	Prefix Search
+2016-03-25	api	prefix	TRUE	8429	8154	Prefix Search	Prefix Search
+2016-03-25	api	regex	FALSE	54	48	Full-Text Search	Full-Text Search
+2016-03-25	api	regex	TRUE	15	6	Full-Text Search	Full-Text Search
+2016-03-25	cli	send_data_write	TRUE	607	607	Prefix Search	Other
+2016-03-25	cli	send_deletes	TRUE	5	5	Prefix Search	Other
+2016-03-25	web	degraded_full_text	FALSE	143	143	Full-Text Search	Other
+2016-03-25	web	full_text	FALSE	5479542	1156708	Full-Text Search	Full-Text Search
+2016-03-25	web	full_text	TRUE	352333	146115	Full-Text Search	Full-Text Search
+2016-03-25	web	get	FALSE	3	0	Prefix Search	Other
+2016-03-25	web	get	TRUE	3	1	Prefix Search	Other
+2016-03-25	web	more_like	TRUE	1	0	Full-Text Search	Full-Text Search
+2016-03-25	web	namespace	FALSE	1203	1199	Prefix Search	Other
+2016-03-25	web	near_match	FALSE	132249	11751	Prefix Search	Prefix Search
+2016-03-25	web	near_match	TRUE	11810	9554	Prefix Search	Prefix Search
+2016-03-25	web	other_idx_lookup	TRUE	36904	36904	Prefix Search	Other
+2016-03-25	web	regex	FALSE	666	94	Full-Text Search	Full-Text Search
+2016-03-25	web	regex	TRUE	68	1	Full-Text Search	Full-Text Search
+2016-03-25	web	send_data_other_idx_write	TRUE	4123	4123	Prefix Search	Other
+2016-03-25	web	send_data_write	TRUE	4865366	4865366	Prefix Search	Other
+2016-03-25	web	send_deletes	TRUE	27500	27500	Prefix Search	Other
+2016-03-25	web	version	FALSE	291	291	Prefix Search	Other
+2016-03-25	web	version	TRUE	309	309	Prefix Search	Other
+2016-03-26	api	comp_suggest	FALSE	58948684	12320682	Prefix Search	Prefix Search
+2016-03-26	api	comp_suggest	TRUE	2556087	901333	Prefix Search	Prefix Search
+2016-03-26	api	degraded_full_text	FALSE	2	1	Full-Text Search	Other
+2016-03-26	api	degraded_full_text	TRUE	3	3	Full-Text Search	Other
+2016-03-26	api	full_text	FALSE	20131451	2964462	Full-Text Search	Full-Text Search
+2016-03-26	api	full_text	TRUE	2613815	723674	Full-Text Search	Full-Text Search
+2016-03-26	api	GeoData_spatial_search	FALSE	763326	170155	Prefix Search	Other
+2016-03-26	api	GeoData_spatial_search	TRUE	288003	111220	Prefix Search	Other
+2016-03-26	api	more_like	FALSE	8673729	6342335	Full-Text Search	Full-Text Search
+2016-03-26	api	more_like	TRUE	2405	227	Full-Text Search	Full-Text Search
+2016-03-26	api	namespace	FALSE	4165	4122	Prefix Search	Other
+2016-03-26	api	namespace	TRUE	5914	5914	Prefix Search	Other
+2016-03-26	api	near_match	FALSE	404644	403655	Prefix Search	Prefix Search
+2016-03-26	api	near_match	TRUE	355	346	Prefix Search	Prefix Search
+2016-03-26	api	prefix	FALSE	711958	176020	Prefix Search	Prefix Search
+2016-03-26	api	prefix	TRUE	883	644	Prefix Search	Prefix Search
+2016-03-26	api	regex	FALSE	205	86	Full-Text Search	Full-Text Search
+2016-03-26	api	regex	TRUE	168	1	Full-Text Search	Full-Text Search
+2016-03-26	cli	send_data_write	TRUE	366	366	Prefix Search	Other
+2016-03-26	web	degraded_full_text	FALSE	128	128	Full-Text Search	Other
+2016-03-26	web	full_text	FALSE	5097927	1088474	Full-Text Search	Full-Text Search
+2016-03-26	web	full_text	TRUE	371047	157668	Full-Text Search	Full-Text Search
+2016-03-26	web	get	TRUE	4	0	Prefix Search	Other
+2016-03-26	web	namespace	FALSE	807	794	Prefix Search	Other
+2016-03-26	web	namespace	TRUE	2	2	Prefix Search	Other
+2016-03-26	web	near_match	FALSE	116817	11568	Prefix Search	Prefix Search
+2016-03-26	web	near_match	TRUE	11018	8525	Prefix Search	Prefix Search
+2016-03-26	web	other_idx_lookup	TRUE	39699	39699	Prefix Search	Other
+2016-03-26	web	regex	FALSE	564	49	Full-Text Search	Full-Text Search
+2016-03-26	web	regex	TRUE	52	1	Full-Text Search	Full-Text Search
+2016-03-26	web	send_data_other_idx_write	TRUE	2943	2943	Prefix Search	Other
+2016-03-26	web	send_data_write	TRUE	4718326	4718326	Prefix Search	Other
+2016-03-26	web	send_deletes	TRUE	17380	17380	Prefix Search	Other
+2016-03-26	web	version	FALSE	101	101	Prefix Search	Other
+2016-03-26	web	version	TRUE	298	298	Prefix Search	Other
+2016-03-27	api	comp_suggest	FALSE	63206231	13161217	Prefix Search	Prefix Search
+2016-03-27	api	comp_suggest	TRUE	2809482	1055527	Prefix Search	Prefix Search
+2016-03-27	api	degraded_full_text	FALSE	8	4	Full-Text Search	Other
+2016-03-27	api	degraded_full_text	TRUE	56	56	Full-Text Search	Other
+2016-03-27	api	full_text	FALSE	21932146	3085547	Full-Text Search	Full-Text Search
+2016-03-27	api	full_text	TRUE	2884794	970020	Full-Text Search	Full-Text Search
+2016-03-27	api	GeoData_spatial_search	FALSE	905033	226727	Prefix Search	Other
+2016-03-27	api	GeoData_spatial_search	TRUE	259992	99131	Prefix Search	Other
+2016-03-27	api	more_like	FALSE	9921433	7405693	Full-Text Search	Full-Text Search
+2016-03-27	api	more_like	TRUE	1320	159	Full-Text Search	Full-Text Search
+2016-03-27	api	namespace	FALSE	6170	5371	Prefix Search	Other
+2016-03-27	api	namespace	TRUE	6591	6591	Prefix Search	Other
+2016-03-27	api	near_match	FALSE	405831	404758	Prefix Search	Prefix Search
+2016-03-27	api	near_match	TRUE	383	376	Prefix Search	Prefix Search
+2016-03-27	api	prefix	FALSE	664555	161590	Prefix Search	Prefix Search
+2016-03-27	api	prefix	TRUE	1543	1370	Prefix Search	Prefix Search
+2016-03-27	api	regex	FALSE	150	87	Full-Text Search	Full-Text Search
+2016-03-27	api	regex	TRUE	263	5	Full-Text Search	Full-Text Search
+2016-03-27	cli	send_data_write	TRUE	308	308	Prefix Search	Other
+2016-03-27	web	degraded_full_text	FALSE	138	138	Full-Text Search	Other
+2016-03-27	web	full_text	FALSE	5515876	1167309	Full-Text Search	Full-Text Search
+2016-03-27	web	full_text	TRUE	391808	166482	Full-Text Search	Full-Text Search
+2016-03-27	web	get	TRUE	4	0	Prefix Search	Other
+2016-03-27	web	namespace	FALSE	793	785	Prefix Search	Other
+2016-03-27	web	namespace	TRUE	3	3	Prefix Search	Other
+2016-03-27	web	near_match	FALSE	149620	37393	Prefix Search	Prefix Search
+2016-03-27	web	near_match	TRUE	8724	5637	Prefix Search	Prefix Search
+2016-03-27	web	other_idx_lookup	TRUE	34874	34874	Prefix Search	Other
+2016-03-27	web	regex	FALSE	529	59	Full-Text Search	Full-Text Search
+2016-03-27	web	regex	TRUE	66	0	Full-Text Search	Full-Text Search
+2016-03-27	web	send_data_other_idx_write	TRUE	4338	4338	Prefix Search	Other
+2016-03-27	web	send_data_write	TRUE	5136531	5136531	Prefix Search	Other
+2016-03-27	web	send_deletes	TRUE	20753	20753	Prefix Search	Other
+2016-03-27	web	version	FALSE	347	347	Prefix Search	Other
+2016-03-27	web	version	TRUE	223	223	Prefix Search	Other
+2016-03-28	api	comp_suggest	FALSE	69331784	15561218	Prefix Search	Prefix Search
+2016-03-28	api	comp_suggest	TRUE	3242740	1214045	Prefix Search	Prefix Search
+2016-03-28	api	degraded_full_text	FALSE	3	3	Full-Text Search	Other
+2016-03-28	api	degraded_full_text	TRUE	27	27	Full-Text Search	Other
+2016-03-28	api	full_text	FALSE	22215086	3658133	Full-Text Search	Full-Text Search
+2016-03-28	api	full_text	TRUE	2803114	987311	Full-Text Search	Full-Text Search
+2016-03-28	api	GeoData_spatial_search	FALSE	747927	223436	Prefix Search	Other
+2016-03-28	api	GeoData_spatial_search	TRUE	317096	133929	Prefix Search	Other
+2016-03-28	api	more_like	FALSE	9011292	6656352	Full-Text Search	Full-Text Search
+2016-03-28	api	more_like	TRUE	3980	466	Full-Text Search	Full-Text Search
+2016-03-28	api	namespace	FALSE	4757	4701	Prefix Search	Other
+2016-03-28	api	namespace	TRUE	8974	8972	Prefix Search	Other
+2016-03-28	api	near_match	FALSE	465482	464153	Prefix Search	Prefix Search
+2016-03-28	api	near_match	TRUE	664	655	Prefix Search	Prefix Search
+2016-03-28	api	prefix	FALSE	787047	203062	Prefix Search	Prefix Search
+2016-03-28	api	prefix	TRUE	607	364	Prefix Search	Prefix Search
+2016-03-28	api	regex	FALSE	3840	2997	Full-Text Search	Full-Text Search
+2016-03-28	api	regex	TRUE	136	3	Full-Text Search	Full-Text Search
+2016-03-28	cli	send_data_write	TRUE	549	549	Prefix Search	Other
+2016-03-28	cli	send_deletes	TRUE	1	1	Prefix Search	Other
+2016-03-28	web	degraded_full_text	FALSE	135	135	Full-Text Search	Other
+2016-03-28	web	full_text	FALSE	6347955	1343231	Full-Text Search	Full-Text Search
+2016-03-28	web	full_text	TRUE	398679	179537	Full-Text Search	Full-Text Search
+2016-03-28	web	get	FALSE	3	0	Prefix Search	Other
+2016-03-28	web	get	TRUE	1	0	Prefix Search	Other
+2016-03-28	web	namespace	FALSE	872	855	Prefix Search	Other
+2016-03-28	web	namespace	TRUE	1	1	Prefix Search	Other
+2016-03-28	web	near_match	FALSE	182412	46544	Prefix Search	Prefix Search
+2016-03-28	web	near_match	TRUE	12961	10421	Prefix Search	Prefix Search
+2016-03-28	web	other_idx_lookup	TRUE	34850	34850	Prefix Search	Other
+2016-03-28	web	regex	FALSE	829	131	Full-Text Search	Full-Text Search
+2016-03-28	web	regex	TRUE	143	2	Full-Text Search	Full-Text Search
+2016-03-28	web	send_data_other_idx_write	TRUE	3358	3358	Prefix Search	Other
+2016-03-28	web	send_data_write	TRUE	4670327	4670327	Prefix Search	Other
+2016-03-28	web	send_deletes	TRUE	16194	16194	Prefix Search	Other
+2016-03-28	web	version	FALSE	101	101	Prefix Search	Other
+2016-03-28	web	version	TRUE	429	429	Prefix Search	Other
+2016-03-29	api	comp_suggest	FALSE	69606583	16389989	Prefix Search	Prefix Search
+2016-03-29	api	comp_suggest	TRUE	3415767	1266330	Prefix Search	Prefix Search
+2016-03-29	api	degraded_full_text	FALSE	4	3	Full-Text Search	Other
+2016-03-29	api	degraded_full_text	TRUE	65	65	Full-Text Search	Other
+2016-03-29	api	full_text	FALSE	20677174	3659374	Full-Text Search	Full-Text Search
+2016-03-29	api	full_text	TRUE	2442124	601286	Full-Text Search	Full-Text Search
+2016-03-29	api	GeoData_spatial_search	FALSE	444160	150817	Prefix Search	Other
+2016-03-29	api	GeoData_spatial_search	TRUE	314414	125176	Prefix Search	Other
+2016-03-29	api	more_like	FALSE	7601642	5462441	Full-Text Search	Full-Text Search
+2016-03-29	api	more_like	TRUE	4091	943	Full-Text Search	Full-Text Search
+2016-03-29	api	namespace	FALSE	9806	9666	Prefix Search	Other
+2016-03-29	api	namespace	TRUE	11082	11079	Prefix Search	Other
+2016-03-29	api	near_match	FALSE	421855	420505	Prefix Search	Prefix Search
+2016-03-29	api	near_match	TRUE	336	330	Prefix Search	Prefix Search
+2016-03-29	api	prefix	FALSE	802835	211057	Prefix Search	Prefix Search
+2016-03-29	api	prefix	TRUE	563	380	Prefix Search	Prefix Search
+2016-03-29	api	regex	FALSE	444	328	Full-Text Search	Full-Text Search
+2016-03-29	api	regex	TRUE	123	2	Full-Text Search	Full-Text Search
+2016-03-29	cli	send_data_write	TRUE	561	561	Prefix Search	Other
+2016-03-29	cli	send_deletes	TRUE	4	4	Prefix Search	Other
+2016-03-29	web	degraded_full_text	FALSE	120	120	Full-Text Search	Other
+2016-03-29	web	full_text	FALSE	6505185	1331959	Full-Text Search	Full-Text Search
+2016-03-29	web	full_text	TRUE	489725	225487	Full-Text Search	Full-Text Search
+2016-03-29	web	get	FALSE	2	0	Prefix Search	Other
+2016-03-29	web	get	TRUE	2	0	Prefix Search	Other
+2016-03-29	web	more_like	FALSE	1	0	Full-Text Search	Full-Text Search
+2016-03-29	web	namespace	FALSE	915	905	Prefix Search	Other
+2016-03-29	web	namespace	TRUE	8	8	Prefix Search	Other
+2016-03-29	web	near_match	FALSE	158225	17858	Prefix Search	Prefix Search
+2016-03-29	web	near_match	TRUE	33070	30146	Prefix Search	Prefix Search
+2016-03-29	web	other_idx_lookup	TRUE	32525	32525	Prefix Search	Other
+2016-03-29	web	regex	FALSE	697	128	Full-Text Search	Full-Text Search
+2016-03-29	web	regex	TRUE	175	1	Full-Text Search	Full-Text Search
+2016-03-29	web	send_data_other_idx_write	TRUE	2661	2661	Prefix Search	Other
+2016-03-29	web	send_data_write	TRUE	4521949	4521949	Prefix Search	Other
+2016-03-29	web	send_deletes	TRUE	18858	18858	Prefix Search	Other
+2016-03-29	web	version	FALSE	71	71	Prefix Search	Other
+2016-03-29	web	version	TRUE	315	315	Prefix Search	Other
+2016-03-30	api	comp_suggest	FALSE	68609403	16384559	Prefix Search	Prefix Search
+2016-03-30	api	comp_suggest	TRUE	3356951	1250593	Prefix Search	Prefix Search
+2016-03-30	api	degraded_full_text	FALSE	1	1	Full-Text Search	Other
+2016-03-30	api	degraded_full_text	TRUE	109	109	Full-Text Search	Other
+2016-03-30	api	full_text	FALSE	19905317	3636648	Full-Text Search	Full-Text Search
+2016-03-30	api	full_text	TRUE	3722192	1715144	Full-Text Search	Full-Text Search
+2016-03-30	api	GeoData_spatial_search	FALSE	418567	129977	Prefix Search	Other
+2016-03-30	api	GeoData_spatial_search	TRUE	326618	136731	Prefix Search	Other
+2016-03-30	api	more_like	FALSE	7270954	5169804	Full-Text Search	Full-Text Search
+2016-03-30	api	more_like	TRUE	2877	1000	Full-Text Search	Full-Text Search
+2016-03-30	api	namespace	FALSE	5977	5928	Prefix Search	Other
+2016-03-30	api	namespace	TRUE	10803	10802	Prefix Search	Other
+2016-03-30	api	near_match	FALSE	471075	469580	Prefix Search	Prefix Search
+2016-03-30	api	near_match	TRUE	453	443	Prefix Search	Prefix Search
+2016-03-30	api	prefix	FALSE	791831	207880	Prefix Search	Prefix Search
+2016-03-30	api	prefix	TRUE	750	351	Prefix Search	Prefix Search
+2016-03-30	api	regex	FALSE	100	78	Full-Text Search	Full-Text Search
+2016-03-30	api	regex	TRUE	113	1	Full-Text Search	Full-Text Search
+2016-03-30	cli	send_data_write	TRUE	597	597	Prefix Search	Other
+2016-03-30	cli	send_deletes	TRUE	9	9	Prefix Search	Other
+2016-03-30	web	degraded_full_text	FALSE	125	125	Full-Text Search	Other
+2016-03-30	web	degraded_full_text	TRUE	2	2	Full-Text Search	Other
+2016-03-30	web	full_text	FALSE	6564239	1338124	Full-Text Search	Full-Text Search
+2016-03-30	web	full_text	TRUE	593115	215812	Full-Text Search	Full-Text Search
+2016-03-30	web	get	FALSE	7	1	Prefix Search	Other
+2016-03-30	web	get	TRUE	3	0	Prefix Search	Other
+2016-03-30	web	more_like	FALSE	9	4	Full-Text Search	Full-Text Search
+2016-03-30	web	more_like	TRUE	1	0	Full-Text Search	Full-Text Search
+2016-03-30	web	namespace	FALSE	959	945	Prefix Search	Other
+2016-03-30	web	namespace	TRUE	2	2	Prefix Search	Other
+2016-03-30	web	near_match	FALSE	152872	12601	Prefix Search	Prefix Search
+2016-03-30	web	near_match	TRUE	16148	13033	Prefix Search	Prefix Search
+2016-03-30	web	other_idx_lookup	TRUE	34395	34395	Prefix Search	Other
+2016-03-30	web	regex	FALSE	713	122	Full-Text Search	Full-Text Search
+2016-03-30	web	regex	TRUE	175	1	Full-Text Search	Full-Text Search
+2016-03-30	web	send_data_other_idx_write	TRUE	3306	3306	Prefix Search	Other
+2016-03-30	web	send_data_write	TRUE	4851417	4851417	Prefix Search	Other
+2016-03-30	web	send_deletes	TRUE	16193	16193	Prefix Search	Other
+2016-03-30	web	version	FALSE	49	49	Prefix Search	Other
+2016-03-30	web	version	TRUE	379	379	Prefix Search	Other
+2016-03-31	api	comp_suggest	FALSE	66961225	16122038	Prefix Search	Prefix Search
+2016-03-31	api	comp_suggest	TRUE	3240235	1235013	Prefix Search	Prefix Search
+2016-03-31	api	degraded_full_text	FALSE	3	3	Full-Text Search	Other
+2016-03-31	api	full_text	FALSE	21454386	5119890	Full-Text Search	Full-Text Search
+2016-03-31	api	full_text	TRUE	4239563	2313601	Full-Text Search	Full-Text Search
+2016-03-31	api	GeoData_spatial_search	FALSE	447744	135563	Prefix Search	Other
+2016-03-31	api	GeoData_spatial_search	TRUE	331465	133243	Prefix Search	Other
+2016-03-31	api	more_like	FALSE	7007134	4970613	Full-Text Search	Full-Text Search
+2016-03-31	api	more_like	TRUE	1571	371	Full-Text Search	Full-Text Search
+2016-03-31	api	namespace	FALSE	6996	6936	Prefix Search	Other
+2016-03-31	api	namespace	TRUE	9649	9646	Prefix Search	Other
+2016-03-31	api	near_match	FALSE	527478	525753	Prefix Search	Prefix Search
+2016-03-31	api	near_match	TRUE	653	642	Prefix Search	Prefix Search
+2016-03-31	api	prefix	FALSE	790315	207699	Prefix Search	Prefix Search
+2016-03-31	api	prefix	TRUE	574	358	Prefix Search	Prefix Search
+2016-03-31	api	regex	FALSE	102	87	Full-Text Search	Full-Text Search
+2016-03-31	api	regex	TRUE	27	1	Full-Text Search	Full-Text Search
+2016-03-31	cli	send_data_write	TRUE	610	610	Prefix Search	Other
+2016-03-31	cli	send_deletes	TRUE	2	2	Prefix Search	Other
+2016-03-31	web	degraded_full_text	FALSE	131	131	Full-Text Search	Other
+2016-03-31	web	full_text	FALSE	6464252	1313144	Full-Text Search	Full-Text Search
+2016-03-31	web	full_text	TRUE	644696	294015	Full-Text Search	Full-Text Search
+2016-03-31	web	get	FALSE	5	0	Prefix Search	Other
+2016-03-31	web	get	TRUE	4	0	Prefix Search	Other
+2016-03-31	web	namespace	FALSE	950	939	Prefix Search	Other
+2016-03-31	web	namespace	TRUE	6	6	Prefix Search	Other
+2016-03-31	web	near_match	FALSE	146163	11733	Prefix Search	Prefix Search
+2016-03-31	web	near_match	TRUE	15350	11693	Prefix Search	Prefix Search
+2016-03-31	web	other_idx_lookup	TRUE	39590	39590	Prefix Search	Other
+2016-03-31	web	regex	FALSE	669	87	Full-Text Search	Full-Text Search
+2016-03-31	web	regex	TRUE	121	1	Full-Text Search	Full-Text Search
+2016-03-31	web	send_data_other_idx_write	TRUE	3167	3167	Prefix Search	Other
+2016-03-31	web	send_data_write	TRUE	4633747	4633747	Prefix Search	Other
+2016-03-31	web	send_deletes	TRUE	17795	17795	Prefix Search	Other
+2016-03-31	web	version	FALSE	316	316	Prefix Search	Other
+2016-03-31	web	version	TRUE	258	258	Prefix Search	Other
+2016-04-01	api	comp_suggest	FALSE	61648506	14106383	Prefix Search	Prefix Search
+2016-04-01	api	comp_suggest	TRUE	2977142	1090616	Prefix Search	Prefix Search
+2016-04-01	api	degraded_full_text	FALSE	4	4	Full-Text Search	Other
+2016-04-01	api	degraded_full_text	TRUE	1	1	Full-Text Search	Other
+2016-04-01	api	full_text	FALSE	20390643	4544392	Full-Text Search	Full-Text Search
+2016-04-01	api	full_text	TRUE	2491045	604642	Full-Text Search	Full-Text Search
+2016-04-01	api	GeoData_spatial_search	FALSE	498530	150395	Prefix Search	Other
+2016-04-01	api	GeoData_spatial_search	TRUE	340289	132855	Prefix Search	Other
+2016-04-01	api	more_like	FALSE	7055643	5045093	Full-Text Search	Full-Text Search
+2016-04-01	api	more_like	TRUE	3575	326	Full-Text Search	Full-Text Search
+2016-04-01	api	namespace	FALSE	8108	8079	Prefix Search	Other
+2016-04-01	api	namespace	TRUE	8425	8424	Prefix Search	Other
+2016-04-01	api	near_match	FALSE	627903	626142	Prefix Search	Prefix Search
+2016-04-01	api	near_match	TRUE	360	349	Prefix Search	Prefix Search
+2016-04-01	api	prefix	FALSE	745762	198001	Prefix Search	Prefix Search
+2016-04-01	api	prefix	TRUE	570	342	Prefix Search	Prefix Search
+2016-04-01	api	regex	FALSE	138	131	Full-Text Search	Full-Text Search
+2016-04-01	api	regex	TRUE	185	11	Full-Text Search	Full-Text Search
+2016-04-01	cli	send_data_write	TRUE	680	680	Prefix Search	Other
+2016-04-01	cli	send_deletes	TRUE	2	2	Prefix Search	Other
+2016-04-01	web	degraded_full_text	FALSE	131	131	Full-Text Search	Other
+2016-04-01	web	degraded_full_text	TRUE	1	1	Full-Text Search	Other
+2016-04-01	web	full_text	FALSE	6139727	1205639	Full-Text Search	Full-Text Search
+2016-04-01	web	full_text	TRUE	661316	277794	Full-Text Search	Full-Text Search
+2016-04-01	web	get	FALSE	3	0	Prefix Search	Other
+2016-04-01	web	get	TRUE	3	0	Prefix Search	Other
+2016-04-01	web	more_like	FALSE	2	0	Full-Text Search	Full-Text Search
+2016-04-01	web	namespace	FALSE	1117	1091	Prefix Search	Other
+2016-04-01	web	near_match	FALSE	131752	11437	Prefix Search	Prefix Search
+2016-04-01	web	near_match	TRUE	14513	11001	Prefix Search	Prefix Search
+2016-04-01	web	other_idx_lookup	TRUE	54794	54794	Prefix Search	Other
+2016-04-01	web	regex	FALSE	722	157	Full-Text Search	Full-Text Search
+2016-04-01	web	regex	TRUE	101	1	Full-Text Search	Full-Text Search
+2016-04-01	web	send_data_other_idx_write	TRUE	2914	2914	Prefix Search	Other
+2016-04-01	web	send_data_write	TRUE	4417312	4417312	Prefix Search	Other
+2016-04-01	web	send_deletes	TRUE	20620	20620	Prefix Search	Other
+2016-04-01	web	version	FALSE	101	101	Prefix Search	Other
+2016-04-01	web	version	TRUE	249	249	Prefix Search	Other
+2016-04-02	api	comp_suggest	FALSE	58423682	12511737	Prefix Search	Prefix Search
+2016-04-02	api	comp_suggest	TRUE	2603944	950122	Prefix Search	Prefix Search
+2016-04-02	api	degraded_full_text	FALSE	1	1	Full-Text Search	Other
+2016-04-02	api	degraded_full_text	TRUE	1	1	Full-Text Search	Other
+2016-04-02	api	full_text	FALSE	19976430	3117160	Full-Text Search	Full-Text Search
+2016-04-02	api	full_text	TRUE	2164585	573526	Full-Text Search	Full-Text Search
+2016-04-02	api	GeoData_spatial_search	FALSE	555714	170456	Prefix Search	Other
+2016-04-02	api	GeoData_spatial_search	TRUE	321792	128553	Prefix Search	Other
+2016-04-02	api	more_like	FALSE	8194685	5967874	Full-Text Search	Full-Text Search
+2016-04-02	api	more_like	TRUE	2729	377	Full-Text Search	Full-Text Search
+2016-04-02	api	namespace	FALSE	4914	4824	Prefix Search	Other
+2016-04-02	api	namespace	TRUE	7484	7481	Prefix Search	Other
+2016-04-02	api	near_match	FALSE	512432	511333	Prefix Search	Prefix Search
+2016-04-02	api	near_match	TRUE	260	252	Prefix Search	Prefix Search
+2016-04-02	api	prefix	FALSE	688048	169452	Prefix Search	Prefix Search
+2016-04-02	api	prefix	TRUE	821	490	Prefix Search	Prefix Search
+2016-04-02	api	regex	FALSE	103	89	Full-Text Search	Full-Text Search
+2016-04-02	api	regex	TRUE	839	1	Full-Text Search	Full-Text Search
+2016-04-02	cli	send_data_write	TRUE	653	653	Prefix Search	Other
+2016-04-02	cli	send_deletes	TRUE	2	2	Prefix Search	Other
+2016-04-02	web	degraded_full_text	FALSE	116	116	Full-Text Search	Other
+2016-04-02	web	degraded_full_text	TRUE	1	1	Full-Text Search	Other
+2016-04-02	web	full_text	FALSE	5586660	1175984	Full-Text Search	Full-Text Search
+2016-04-02	web	full_text	TRUE	769803	314337	Full-Text Search	Full-Text Search
+2016-04-02	web	get	FALSE	3	0	Prefix Search	Other
+2016-04-02	web	get	TRUE	4	0	Prefix Search	Other
+2016-04-02	web	more_like	FALSE	1	1	Full-Text Search	Full-Text Search
+2016-04-02	web	namespace	FALSE	827	818	Prefix Search	Other
+2016-04-02	web	namespace	TRUE	3	3	Prefix Search	Other
+2016-04-02	web	near_match	FALSE	114727	11289	Prefix Search	Prefix Search
+2016-04-02	web	near_match	TRUE	16756	11742	Prefix Search	Prefix Search
+2016-04-02	web	other_idx_lookup	TRUE	94035	94035	Prefix Search	Other
+2016-04-02	web	regex	FALSE	724	116	Full-Text Search	Full-Text Search
+2016-04-02	web	regex	TRUE	111	6	Full-Text Search	Full-Text Search
+2016-04-02	web	send_data_other_idx_write	TRUE	2959	2959	Prefix Search	Other
+2016-04-02	web	send_data_write	TRUE	4989785	4989785	Prefix Search	Other
+2016-04-02	web	send_deletes	TRUE	24072	24072	Prefix Search	Other
+2016-04-02	web	version	FALSE	58	58	Prefix Search	Other
+2016-04-02	web	version	TRUE	285	285	Prefix Search	Other
+2016-04-03	api	comp_suggest	FALSE	65429845	14195370	Prefix Search	Prefix Search
+2016-04-03	api	comp_suggest	TRUE	2932544	1101440	Prefix Search	Prefix Search
+2016-04-03	api	degraded_full_text	FALSE	7	3	Full-Text Search	Other
+2016-04-03	api	full_text	FALSE	21410869	3255850	Full-Text Search	Full-Text Search
+2016-04-03	api	full_text	TRUE	4148482	2303381	Full-Text Search	Full-Text Search
+2016-04-03	api	GeoData_spatial_search	FALSE	612754	208938	Prefix Search	Other
+2016-04-03	api	GeoData_spatial_search	TRUE	282203	111394	Prefix Search	Other
+2016-04-03	api	more_like	FALSE	9131994	6787842	Full-Text Search	Full-Text Search
+2016-04-03	api	more_like	TRUE	2435	550	Full-Text Search	Full-Text Search
+2016-04-03	api	namespace	FALSE	6078	6035	Prefix Search	Other
+2016-04-03	api	namespace	TRUE	11083	11079	Prefix Search	Other
+2016-04-03	api	near_match	FALSE	418630	417729	Prefix Search	Prefix Search
+2016-04-03	api	near_match	TRUE	240	228	Prefix Search	Prefix Search
+2016-04-03	api	prefix	FALSE	707183	177973	Prefix Search	Prefix Search
+2016-04-03	api	prefix	TRUE	571	340	Prefix Search	Prefix Search
+2016-04-03	api	regex	FALSE	107	78	Full-Text Search	Full-Text Search
+2016-04-03	api	regex	TRUE	2101	1	Full-Text Search	Full-Text Search
+2016-04-03	cli	send_data_write	TRUE	409	409	Prefix Search	Other
+2016-04-03	cli	send_deletes	TRUE	2	2	Prefix Search	Other
+2016-04-03	web	degraded_full_text	FALSE	114	114	Full-Text Search	Other
+2016-04-03	web	degraded_full_text	TRUE	1	1	Full-Text Search	Other
+2016-04-03	web	full_text	FALSE	6187883	1256208	Full-Text Search	Full-Text Search
+2016-04-03	web	full_text	TRUE	432524	202179	Full-Text Search	Full-Text Search
+2016-04-03	web	get	FALSE	1	0	Prefix Search	Other
+2016-04-03	web	get	TRUE	1	0	Prefix Search	Other
+2016-04-03	web	namespace	FALSE	1509	1501	Prefix Search	Other
+2016-04-03	web	namespace	TRUE	3	3	Prefix Search	Other
+2016-04-03	web	near_match	FALSE	137800	12751	Prefix Search	Prefix Search
+2016-04-03	web	near_match	TRUE	14091	11124	Prefix Search	Prefix Search
+2016-04-03	web	other_idx_lookup	TRUE	79249	79249	Prefix Search	Other
+2016-04-03	web	regex	FALSE	525	48	Full-Text Search	Full-Text Search
+2016-04-03	web	regex	TRUE	166	2	Full-Text Search	Full-Text Search
+2016-04-03	web	send_data_other_idx_write	TRUE	3270	3270	Prefix Search	Other
+2016-04-03	web	send_data_write	TRUE	4885702	4885702	Prefix Search	Other
+2016-04-03	web	send_deletes	TRUE	21564	21564	Prefix Search	Other
+2016-04-03	web	version	FALSE	65	65	Prefix Search	Other
+2016-04-03	web	version	TRUE	256	256	Prefix Search	Other
+2016-04-04	api	comp_suggest	FALSE	70493203	16620602	Prefix Search	Prefix Search
+2016-04-04	api	comp_suggest	TRUE	3448360	1299421	Prefix Search	Prefix Search
+2016-04-04	api	degraded_full_text	FALSE	2	1	Full-Text Search	Other
+2016-04-04	api	degraded_full_text	TRUE	4	4	Full-Text Search	Other
+2016-04-04	api	full_text	FALSE	20478215	3794623	Full-Text Search	Full-Text Search
+2016-04-04	api	full_text	TRUE	3879057	1874438	Full-Text Search	Full-Text Search
+2016-04-04	api	GeoData_spatial_search	FALSE	425365	148469	Prefix Search	Other
+2016-04-04	api	GeoData_spatial_search	TRUE	308502	122519	Prefix Search	Other
+2016-04-04	api	more_like	FALSE	7606230	5545718	Full-Text Search	Full-Text Search
+2016-04-04	api	more_like	TRUE	2639	268	Full-Text Search	Full-Text Search
+2016-04-04	api	namespace	FALSE	6809	6686	Prefix Search	Other
+2016-04-04	api	namespace	TRUE	9609	9603	Prefix Search	Other
+2016-04-04	api	near_match	FALSE	543766	541708	Prefix Search	Prefix Search
+2016-04-04	api	near_match	TRUE	412	407	Prefix Search	Prefix Search
+2016-04-04	api	prefix	FALSE	778100	210224	Prefix Search	Prefix Search
+2016-04-04	api	prefix	TRUE	697	389	Prefix Search	Prefix Search
+2016-04-04	api	regex	FALSE	35	26	Full-Text Search	Full-Text Search
+2016-04-04	api	regex	TRUE	2033	2	Full-Text Search	Full-Text Search
+2016-04-04	cli	send_data_write	TRUE	514	514	Prefix Search	Other
+2016-04-04	web	degraded_full_text	FALSE	110	110	Full-Text Search	Other
+2016-04-04	web	degraded_full_text	TRUE	1	1	Full-Text Search	Other
+2016-04-04	web	full_text	FALSE	6904767	1337489	Full-Text Search	Full-Text Search
+2016-04-04	web	full_text	TRUE	405240	173816	Full-Text Search	Full-Text Search
+2016-04-04	web	get	FALSE	11	2	Prefix Search	Other
+2016-04-04	web	get	TRUE	3	0	Prefix Search	Other
+2016-04-04	web	namespace	FALSE	861	841	Prefix Search	Other
+2016-04-04	web	namespace	TRUE	2	2	Prefix Search	Other
+2016-04-04	web	near_match	FALSE	155208	13117	Prefix Search	Prefix Search
+2016-04-04	web	near_match	TRUE	7574	4843	Prefix Search	Prefix Search
+2016-04-04	web	other_idx_lookup	TRUE	67637	67637	Prefix Search	Other
+2016-04-04	web	regex	FALSE	454	65	Full-Text Search	Full-Text Search
+2016-04-04	web	regex	TRUE	171	2	Full-Text Search	Full-Text Search
+2016-04-04	web	send_data_other_idx_write	TRUE	3041	3041	Prefix Search	Other
+2016-04-04	web	send_data_write	TRUE	5023005	5023005	Prefix Search	Other
+2016-04-04	web	send_deletes	TRUE	29064	29064	Prefix Search	Other
+2016-04-04	web	version	FALSE	89	89	Prefix Search	Other
+2016-04-04	web	version	TRUE	307	307	Prefix Search	Other
+2016-04-05	api	comp_suggest	FALSE	70578675	17104199	Prefix Search	Prefix Search
+2016-04-05	api	comp_suggest	TRUE	3481097	1304619	Prefix Search	Prefix Search
+2016-04-05	api	degraded_full_text	FALSE	5	5	Full-Text Search	Other
+2016-04-05	api	degraded_full_text	TRUE	1	1	Full-Text Search	Other
+2016-04-05	api	full_text	FALSE	21802080	5337570	Full-Text Search	Full-Text Search
+2016-04-05	api	full_text	TRUE	3244112	1169952	Full-Text Search	Full-Text Search
+2016-04-05	api	GeoData_spatial_search	FALSE	399705	125652	Prefix Search	Other
+2016-04-05	api	GeoData_spatial_search	TRUE	304808	119453	Prefix Search	Other
+2016-04-05	api	more_like	FALSE	7211103	5182853	Full-Text Search	Full-Text Search
+2016-04-05	api	more_like	TRUE	8280	778	Full-Text Search	Full-Text Search
+2016-04-05	api	namespace	FALSE	6437	6285	Prefix Search	Other
+2016-04-05	api	namespace	TRUE	9982	9973	Prefix Search	Other
+2016-04-05	api	near_match	FALSE	641385	639462	Prefix Search	Prefix Search
+2016-04-05	api	near_match	TRUE	1079	1060	Prefix Search	Prefix Search
+2016-04-05	api	prefix	FALSE	772599	204419	Prefix Search	Prefix Search
+2016-04-05	api	prefix	TRUE	1402	1208	Prefix Search	Prefix Search
+2016-04-05	api	regex	FALSE	104	79	Full-Text Search	Full-Text Search
+2016-04-05	api	regex	TRUE	2062	1	Full-Text Search	Full-Text Search
+2016-04-05	cli	send_data_write	TRUE	646	646	Prefix Search	Other
+2016-04-05	cli	send_deletes	TRUE	2	2	Prefix Search	Other
+2016-04-05	web	degraded_full_text	FALSE	148	148	Full-Text Search	Other
+2016-04-05	web	degraded_full_text	TRUE	1	1	Full-Text Search	Other
+2016-04-05	web	full_text	FALSE	7018081	1390109	Full-Text Search	Full-Text Search
+2016-04-05	web	full_text	TRUE	524207	287821	Full-Text Search	Full-Text Search
+2016-04-05	web	get	FALSE	15	2	Prefix Search	Other
+2016-04-05	web	more_like	FALSE	1	0	Full-Text Search	Full-Text Search
+2016-04-05	web	namespace	FALSE	1032	1019	Prefix Search	Other
+2016-04-05	web	namespace	TRUE	2	2	Prefix Search	Other
+2016-04-05	web	near_match	FALSE	153899	14599	Prefix Search	Prefix Search
+2016-04-05	web	near_match	TRUE	8514	5708	Prefix Search	Prefix Search
+2016-04-05	web	other_idx_lookup	TRUE	42034	42034	Prefix Search	Other
+2016-04-05	web	regex	FALSE	893	176	Full-Text Search	Full-Text Search
+2016-04-05	web	regex	TRUE	251	4	Full-Text Search	Full-Text Search
+2016-04-05	web	send_data_other_idx_write	TRUE	2586	2586	Prefix Search	Other
+2016-04-05	web	send_data_write	TRUE	4510867	4510867	Prefix Search	Other
+2016-04-05	web	send_deletes	TRUE	18228	18228	Prefix Search	Other
+2016-04-05	web	version	FALSE	51	51	Prefix Search	Other
+2016-04-05	web	version	TRUE	304	304	Prefix Search	Other
+2016-04-06	api	comp_suggest	FALSE	70608975	17318848	Prefix Search	Prefix Search
+2016-04-06	api	comp_suggest	TRUE	3703285	1384919	Prefix Search	Prefix Search
+2016-04-06	api	degraded_full_text	FALSE	1	1	Full-Text Search	Other
+2016-04-06	api	degraded_full_text	TRUE	6	6	Full-Text Search	Other
+2016-04-06	api	full_text	FALSE	21008620	5048756	Full-Text Search	Full-Text Search
+2016-04-06	api	full_text	TRUE	3031293	1077849	Full-Text Search	Full-Text Search
+2016-04-06	api	GeoData_spatial_search	FALSE	425929	119376	Prefix Search	Other
+2016-04-06	api	GeoData_spatial_search	TRUE	308104	121457	Prefix Search	Other
+2016-04-06	api	more_like	FALSE	7012679	4996478	Full-Text Search	Full-Text Search
+2016-04-06	api	more_like	TRUE	3554	729	Full-Text Search	Full-Text Search
+2016-04-06	api	namespace	FALSE	7530	7489	Prefix Search	Other
+2016-04-06	api	namespace	TRUE	9573	9568	Prefix Search	Other
+2016-04-06	api	near_match	FALSE	531590	530097	Prefix Search	Prefix Search
+2016-04-06	api	near_match	TRUE	953	943	Prefix Search	Prefix Search
+2016-04-06	api	prefix	FALSE	760704	206207	Prefix Search	Prefix Search
+2016-04-06	api	prefix	TRUE	1645	1244	Prefix Search	Prefix Search
+2016-04-06	api	regex	FALSE	161	34	Full-Text Search	Full-Text Search
+2016-04-06	api	regex	TRUE	1894	5	Full-Text Search	Full-Text Search
+2016-04-06	cli	send_data_write	TRUE	601	601	Prefix Search	Other
+2016-04-06	cli	send_deletes	TRUE	5	5	Prefix Search	Other
+2016-04-06	web	degraded_full_text	FALSE	111	111	Full-Text Search	Other
+2016-04-06	web	degraded_full_text	TRUE	1	1	Full-Text Search	Other
+2016-04-06	web	full_text	FALSE	7039988	1392655	Full-Text Search	Full-Text Search
+2016-04-06	web	full_text	TRUE	892528	555985	Full-Text Search	Full-Text Search
+2016-04-06	web	get	FALSE	4	0	Prefix Search	Other
+2016-04-06	web	get	TRUE	5	0	Prefix Search	Other
+2016-04-06	web	namespace	FALSE	1804	1789	Prefix Search	Other
+2016-04-06	web	namespace	TRUE	11	11	Prefix Search	Other
+2016-04-06	web	near_match	FALSE	152780	13413	Prefix Search	Prefix Search
+2016-04-06	web	near_match	TRUE	15040	11693	Prefix Search	Prefix Search
+2016-04-06	web	other_idx_lookup	TRUE	38339	38339	Prefix Search	Other
+2016-04-06	web	regex	FALSE	589	64	Full-Text Search	Full-Text Search
+2016-04-06	web	regex	TRUE	272	0	Full-Text Search	Full-Text Search
+2016-04-06	web	send_data_other_idx_write	TRUE	2718	2718	Prefix Search	Other
+2016-04-06	web	send_data_write	TRUE	4511642	4511642	Prefix Search	Other
+2016-04-06	web	send_deletes	TRUE	20094	20094	Prefix Search	Other
+2016-04-06	web	version	FALSE	81	81	Prefix Search	Other
+2016-04-06	web	version	TRUE	280	280	Prefix Search	Other
+2016-04-07	api	comp_suggest	FALSE	69318966	16681041	Prefix Search	Prefix Search
+2016-04-07	api	comp_suggest	TRUE	3386980	1273596	Prefix Search	Prefix Search
+2016-04-07	api	degraded_full_text	FALSE	1	0	Full-Text Search	Other
+2016-04-07	api	degraded_full_text	TRUE	26	26	Full-Text Search	Other
+2016-04-07	api	full_text	FALSE	20810329	4829165	Full-Text Search	Full-Text Search
+2016-04-07	api	full_text	TRUE	2399392	683759	Full-Text Search	Full-Text Search
+2016-04-07	api	GeoData_spatial_search	FALSE	443463	122916	Prefix Search	Other
+2016-04-07	api	GeoData_spatial_search	TRUE	303539	121819	Prefix Search	Other
+2016-04-07	api	more_like	FALSE	7050142	5030623	Full-Text Search	Full-Text Search
+2016-04-07	api	more_like	TRUE	2273	203	Full-Text Search	Full-Text Search
+2016-04-07	api	namespace	FALSE	5296	5194	Prefix Search	Other
+2016-04-07	api	namespace	TRUE	10084	10082	Prefix Search	Other
+2016-04-07	api	near_match	FALSE	690296	688204	Prefix Search	Prefix Search
+2016-04-07	api	near_match	TRUE	3268	3213	Prefix Search	Prefix Search
+2016-04-07	api	prefix	FALSE	741388	197440	Prefix Search	Prefix Search
+2016-04-07	api	prefix	TRUE	575	318	Prefix Search	Prefix Search
+2016-04-07	api	regex	FALSE	129	118	Full-Text Search	Full-Text Search
+2016-04-07	api	regex	TRUE	2844	1	Full-Text Search	Full-Text Search
+2016-04-07	cli	count_links	TRUE	11	11	Prefix Search	Other
+2016-04-07	cli	send_data_write	TRUE	569	569	Prefix Search	Other
+2016-04-07	web	degraded_full_text	FALSE	113	113	Full-Text Search	Other
+2016-04-07	web	degraded_full_text	TRUE	1	1	Full-Text Search	Other
+2016-04-07	web	full_text	FALSE	6910596	1383847	Full-Text Search	Full-Text Search
+2016-04-07	web	full_text	TRUE	540790	247670	Full-Text Search	Full-Text Search
+2016-04-07	web	get	FALSE	2	0	Prefix Search	Other
+2016-04-07	web	get	TRUE	2	0	Prefix Search	Other
+2016-04-07	web	more_like	TRUE	1	0	Full-Text Search	Full-Text Search
+2016-04-07	web	namespace	FALSE	1142	1135	Prefix Search	Other
+2016-04-07	web	namespace	TRUE	7	7	Prefix Search	Other
+2016-04-07	web	near_match	FALSE	153341	12501	Prefix Search	Prefix Search
+2016-04-07	web	near_match	TRUE	10865	7708	Prefix Search	Prefix Search
+2016-04-07	web	other_idx_lookup	TRUE	33013	33013	Prefix Search	Other
+2016-04-07	web	regex	FALSE	757	140	Full-Text Search	Full-Text Search
+2016-04-07	web	regex	TRUE	288	1	Full-Text Search	Full-Text Search
+2016-04-07	web	send_data_other_idx_write	TRUE	2045	2045	Prefix Search	Other
+2016-04-07	web	send_data_write	TRUE	4157529	4157529	Prefix Search	Other
+2016-04-07	web	send_deletes	TRUE	24228	24228	Prefix Search	Other
+2016-04-07	web	version	FALSE	65	65	Prefix Search	Other
+2016-04-07	web	version	TRUE	204	204	Prefix Search	Other
+2016-04-08	api	comp_suggest	FALSE	64125731	14609498	Prefix Search	Prefix Search
+2016-04-08	api	comp_suggest	TRUE	3059913	1124516	Prefix Search	Prefix Search
+2016-04-08	api	degraded_full_text	FALSE	3	3	Full-Text Search	Other
+2016-04-08	api	degraded_full_text	TRUE	1	1	Full-Text Search	Other
+2016-04-08	api	full_text	FALSE	18219391	3118068	Full-Text Search	Full-Text Search
+2016-04-08	api	full_text	TRUE	3177334	1472662	Full-Text Search	Full-Text Search
+2016-04-08	api	GeoData_spatial_search	FALSE	455750	133328	Prefix Search	Other
+2016-04-08	api	GeoData_spatial_search	TRUE	323522	125998	Prefix Search	Other
+2016-04-08	api	more_like	FALSE	7141393	5125051	Full-Text Search	Full-Text Search
+2016-04-08	api	more_like	TRUE	3458	340	Full-Text Search	Full-Text Search
+2016-04-08	api	namespace	FALSE	10310	10286	Prefix Search	Other
+2016-04-08	api	namespace	TRUE	8442	8433	Prefix Search	Other
+2016-04-08	api	near_match	FALSE	661199	659214	Prefix Search	Prefix Search
+2016-04-08	api	near_match	TRUE	457	446	Prefix Search	Prefix Search
+2016-04-08	api	prefix	FALSE	742618	190075	Prefix Search	Prefix Search
+2016-04-08	api	prefix	TRUE	566	436	Prefix Search	Prefix Search
+2016-04-08	api	regex	FALSE	11474	1860	Full-Text Search	Full-Text Search
+2016-04-08	api	regex	TRUE	2612	1	Full-Text Search	Full-Text Search
+2016-04-08	cli	send_data_write	TRUE	517	517	Prefix Search	Other
+2016-04-08	cli	send_deletes	TRUE	1	1	Prefix Search	Other
+2016-04-08	web	degraded_full_text	FALSE	149	149	Full-Text Search	Other
+2016-04-08	web	full_text	FALSE	6367834	1295222	Full-Text Search	Full-Text Search
+2016-04-08	web	full_text	TRUE	570189	253060	Full-Text Search	Full-Text Search
+2016-04-08	web	get	FALSE	3	0	Prefix Search	Other
+2016-04-08	web	get	TRUE	2	0	Prefix Search	Other
+2016-04-08	web	namespace	FALSE	980	980	Prefix Search	Other
+2016-04-08	web	namespace	TRUE	5	5	Prefix Search	Other
+2016-04-08	web	near_match	FALSE	149712	11815	Prefix Search	Prefix Search
+2016-04-08	web	near_match	TRUE	11339	7859	Prefix Search	Prefix Search
+2016-04-08	web	other_idx_lookup	TRUE	33850	33850	Prefix Search	Other
+2016-04-08	web	regex	FALSE	599	104	Full-Text Search	Full-Text Search
+2016-04-08	web	regex	TRUE	301	4	Full-Text Search	Full-Text Search
+2016-04-08	web	send_data_other_idx_write	TRUE	1853	1853	Prefix Search	Other
+2016-04-08	web	send_data_write	TRUE	4020962	4020962	Prefix Search	Other
+2016-04-08	web	send_deletes	TRUE	16466	16466	Prefix Search	Other
+2016-04-08	web	version	FALSE	245	245	Prefix Search	Other
+2016-04-08	web	version	TRUE	264	264	Prefix Search	Other
+2016-04-09	api	comp_suggest	FALSE	60246288	12931413	Prefix Search	Prefix Search
+2016-04-09	api	comp_suggest	TRUE	2705650	960375	Prefix Search	Prefix Search
+2016-04-09	api	degraded_full_text	FALSE	2	2	Full-Text Search	Other
+2016-04-09	api	degraded_full_text	TRUE	1	1	Full-Text Search	Other
+2016-04-09	api	full_text	FALSE	20629706	4103822	Full-Text Search	Full-Text Search
+2016-04-09	api	full_text	TRUE	2190415	506733	Full-Text Search	Full-Text Search
+2016-04-09	api	GeoData_spatial_search	FALSE	592257	177024	Prefix Search	Other
+2016-04-09	api	GeoData_spatial_search	TRUE	306714	121376	Prefix Search	Other
+2016-04-09	api	more_like	FALSE	8219153	5991525	Full-Text Search	Full-Text Search
+2016-04-09	api	more_like	TRUE	1141	107	Full-Text Search	Full-Text Search
+2016-04-09	api	namespace	FALSE	8810	8795	Prefix Search	Other
+2016-04-09	api	namespace	TRUE	6011	6011	Prefix Search	Other
+2016-04-09	api	near_match	FALSE	506493	505061	Prefix Search	Prefix Search
+2016-04-09	api	near_match	TRUE	272	262	Prefix Search	Prefix Search
+2016-04-09	api	prefix	FALSE	688841	171901	Prefix Search	Prefix Search
+2016-04-09	api	prefix	TRUE	689	469	Prefix Search	Prefix Search
+2016-04-09	api	regex	FALSE	3428	253	Full-Text Search	Full-Text Search
+2016-04-09	api	regex	TRUE	2344	4	Full-Text Search	Full-Text Search
+2016-04-09	cli	send_data_write	TRUE	347	347	Prefix Search	Other
+2016-04-09	cli	send_deletes	TRUE	1	1	Prefix Search	Other
+2016-04-09	web	degraded_full_text	FALSE	147	147	Full-Text Search	Other
+2016-04-09	web	degraded_full_text	TRUE	1	1	Full-Text Search	Other
+2016-04-09	web	full_text	FALSE	5563219	1174288	Full-Text Search	Full-Text Search
+2016-04-09	web	full_text	TRUE	583906	264064	Full-Text Search	Full-Text Search
+2016-04-09	web	get	FALSE	3	0	Prefix Search	Other
+2016-04-09	web	get	TRUE	6	1	Prefix Search	Other
+2016-04-09	web	namespace	FALSE	977	977	Prefix Search	Other
+2016-04-09	web	namespace	TRUE	8	8	Prefix Search	Other
+2016-04-09	web	near_match	FALSE	129870	13284	Prefix Search	Prefix Search
+2016-04-09	web	near_match	TRUE	11153	8093	Prefix Search	Prefix Search
+2016-04-09	web	other_idx_lookup	TRUE	36393	36393	Prefix Search	Other
+2016-04-09	web	regex	FALSE	753	81	Full-Text Search	Full-Text Search
+2016-04-09	web	regex	TRUE	377	3	Full-Text Search	Full-Text Search
+2016-04-09	web	send_data_other_idx_write	TRUE	2410	2410	Prefix Search	Other
+2016-04-09	web	send_data_write	TRUE	4224347	4224347	Prefix Search	Other
+2016-04-09	web	send_deletes	TRUE	15865	15865	Prefix Search	Other
+2016-04-09	web	version	FALSE	83	83	Prefix Search	Other
+2016-04-09	web	version	TRUE	249	249	Prefix Search	Other
+2016-04-10	api	comp_suggest	FALSE	67547677	14812058	Prefix Search	Prefix Search
+2016-04-10	api	comp_suggest	TRUE	3023333	1100263	Prefix Search	Prefix Search
+2016-04-10	api	degraded_full_text	FALSE	7	3	Full-Text Search	Other
+2016-04-10	api	degraded_full_text	TRUE	1	1	Full-Text Search	Other
+2016-04-10	api	full_text	FALSE	22484720	4445266	Full-Text Search	Full-Text Search
+2016-04-10	api	full_text	TRUE	2109650	383669	Full-Text Search	Full-Text Search
+2016-04-10	api	GeoData_spatial_search	FALSE	640189	197686	Prefix Search	Other
+2016-04-10	api	GeoData_spatial_search	TRUE	277953	106655	Prefix Search	Other
+2016-04-10	api	more_like	FALSE	9235635	6884254	Full-Text Search	Full-Text Search
+2016-04-10	api	more_like	TRUE	1353	161	Full-Text Search	Full-Text Search
+2016-04-10	api	namespace	FALSE	12326	12306	Prefix Search	Other
+2016-04-10	api	namespace	TRUE	7344	7344	Prefix Search	Other
+2016-04-10	api	near_match	FALSE	509975	508547	Prefix Search	Prefix Search
+2016-04-10	api	near_match	TRUE	632	622	Prefix Search	Prefix Search
+2016-04-10	api	prefix	FALSE	729003	177904	Prefix Search	Prefix Search
+2016-04-10	api	prefix	TRUE	923	488	Prefix Search	Prefix Search
+2016-04-10	api	regex	FALSE	19491	2911	Full-Text Search	Full-Text Search
+2016-04-10	api	regex	TRUE	2017	5	Full-Text Search	Full-Text Search
+2016-04-10	cli	send_data_write	TRUE	288	288	Prefix Search	Other
+2016-04-10	cli	send_deletes	TRUE	1	1	Prefix Search	Other
+2016-04-10	web	degraded_full_text	FALSE	140	140	Full-Text Search	Other
+2016-04-10	web	degraded_full_text	TRUE	1	1	Full-Text Search	Other
+2016-04-10	web	full_text	FALSE	6177314	1288815	Full-Text Search	Full-Text Search
+2016-04-10	web	full_text	TRUE	544499	279182	Full-Text Search	Full-Text Search
+2016-04-10	web	get	TRUE	4	0	Prefix Search	Other
+2016-04-10	web	more_like	TRUE	1	0	Full-Text Search	Full-Text Search
+2016-04-10	web	namespace	FALSE	897	897	Prefix Search	Other
+2016-04-10	web	namespace	TRUE	4	4	Prefix Search	Other
+2016-04-10	web	near_match	FALSE	148430	13837	Prefix Search	Prefix Search
+2016-04-10	web	near_match	TRUE	10821	7377	Prefix Search	Prefix Search
+2016-04-10	web	other_idx_lookup	TRUE	35267	35267	Prefix Search	Other
+2016-04-10	web	regex	FALSE	457	70	Full-Text Search	Full-Text Search
+2016-04-10	web	regex	TRUE	365	2	Full-Text Search	Full-Text Search
+2016-04-10	web	send_data_other_idx_write	TRUE	2217	2217	Prefix Search	Other
+2016-04-10	web	send_data_write	TRUE	3946047	3946047	Prefix Search	Other
+2016-04-10	web	send_deletes	TRUE	16293	16293	Prefix Search	Other
+2016-04-10	web	version	FALSE	88	88	Prefix Search	Other
+2016-04-10	web	version	TRUE	356	356	Prefix Search	Other
